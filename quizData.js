@@ -1,6 +1,6 @@
 const quizData = [
   {
-    "question": "1. Có cần số điện thoại chính chủ để đăng ký không?",
+    "question": "Câu 1: Có cần số điện thoại chính chủ để đăng ký không?",
     "options": {
       "a": "Không bắt buộc",
       "b": "Không cần",
@@ -10,7 +10,7 @@ const quizData = [
     "answer": "d"
   },
   {
-    "question": "2. Đăng ký tài khoản định danh điện tử ở đâu?",
+    "question": "Câu 2: Đăng ký tài khoản định danh điện tử ở đâu?",
     "options": {
       "a": "Cơ quan Công an",
       "b": "Qua điện thoại",
@@ -20,17 +20,17 @@ const quizData = [
     "answer": "a"
   },
   {
-    "question": "3. Những yếu tố nào sau đây là trụ cột chính trong chuyển đổi số quốc gia?",
+    "question": "Câu 3: Những yếu tố nào sau đây là trụ cột chính trong chuyển đổi số quốc gia?",
     "options": {
-      "a": "Hạ tầng số",
-      "b": "Dữ liệu số",
-      "c": "Chính phủ số, Kinh tế số, Xã hội số",
-      "d": "Công nghệ số, Nhân lực số, Thể chế số"
+      "a": "Hạ tầng số, Dữ liệu số",
+      "b": "Chính phủ số, Kinh tế số, Xã hội số",
+      "c": "Công nghệ số, Nhân lực số",
+      "d": "Thể chế số"
     },
-    "answer": "c"
+    "answer": "b"
   },
   {
-    "question": "4. Theo Quyết định 749/QĐ-TTg năm 2020 về Chương trình Chuyển đổi số quốc gia, những công nghệ số trọng tâm nào được khuyến khích phát triển?",
+    "question": "Câu 4: Theo Quyết định 749/QĐ-TTg năm 2020 về Chương trình Chuyển đổi số quốc gia, những công nghệ số trọng tâm nào được khuyến khích phát triển?",
     "options": {
       "a": "Trí tuệ nhân tạo (AI), dữ liệu lớn (Big Data), Internet vạn vật (IoT)",
       "b": "Công nghệ thủ công truyền thống",
@@ -40,7 +40,7 @@ const quizData = [
     "answer": "a"
   },
   {
-    "question": "5. Bị mất điện thoại đang sử dụng tài khoản định danh điện tử thì cần làm gì?",
+    "question": "Câu 5: Bị mất điện thoại đang sử dụng tài khoản định danh điện tử thì cần làm gì?",
     "options": {
       "a": "Không làm gì cả",
       "b": "Xóa tài khoản và đăng ký lại",
@@ -50,7 +50,7 @@ const quizData = [
     "answer": "d"
   },
   {
-    "question": "6. Hệ thống nào giúp nhà trường quản lý học sinh và giáo viên hiệu quả hơn?",
+    "question": "Câu 6: Hệ thống nào giúp nhà trường quản lý học sinh và giáo viên hiệu quả hơn?",
     "options": {
       "a": "Sổ liên lạc giấy",
       "b": "Ứng dụng quản lý giáo dục",
@@ -60,7 +60,7 @@ const quizData = [
     "answer": "b"
   },
   {
-    "question": "7. Chọn thiết bị mạng không dây (bộ phát wifi) như thế nào để đảm bảo an toàn thông tin khi sử dụng?",
+    "question": "Câu 7: Chọn thiết bị mạng không dây (bộ phát wifi) như thế nào để đảm bảo an toàn thông tin khi sử dụng?",
     "options": {
       "a": "Chọn thiết bị có giá rẻ, mẫu mã đẹp",
       "b": "Chọn thiết bị có nguồn gốc xuất xứ, thương hiệu nổi tiếng của nước ngoài",
@@ -70,18 +70,17 @@ const quizData = [
     "answer": "c"
   },
   {
-    "question": "8. Dấu hiệu nhận biết email lừa đảo là gì?",
+    "question": "Câu 8: Dấu hiệu nhận biết email lừa đảo là gì?",
     "options": {
       "a": "Có file đính kèm lạ",
       "b": "Đường link lạ đính kèm",
       "c": "Người gửi không rõ ràng",
-      "d": "Nội dung cấp bách, khẩn cấp",
-      "e": "Cả 4 đáp án trên"
+      "d": "Nội dung cấp bách, khẩn cấp"
     },
     "answer": ["a","b","c","d"]
   },
   {
-    "question": "9. Quy tắc ứng xử cho tổ chức, cá nhân được quy định tại Điều mấy Bộ Quy tắc ứng xử trên không gian mạng?",
+    "question": "Câu 9: Quy tắc ứng xử cho tổ chức, cá nhân được quy định tại Điều mấy Bộ Quy tắc ứng xử trên không gian mạng?",
     "options": {
       "a": "Điều 2",
       "b": "Điều 3",
@@ -91,7 +90,7 @@ const quizData = [
     "answer": "c"
   },
   {
-    "question": "10. AI có thể được phân loại thành mấy nhóm chính?",
+    "question": "Câu 10: AI có thể được phân loại thành mấy nhóm chính?",
     "options": {
       "a": "4",
       "b": "5",
@@ -101,7 +100,7 @@ const quizData = [
     "answer": "d"
   },
   {
-    "question": "11. AI có thể giúp chẩn đoán bệnh nào sau đây thông qua hình ảnh?",
+    "question": "Câu 11: AI có thể giúp chẩn đoán bệnh nào sau đây thông qua hình ảnh?",
     "options": {
       "a": "Suy thận",
       "b": "Ung thư phổi",
@@ -111,7 +110,7 @@ const quizData = [
     "answer": "d"
   },
   {
-    "question": "12. AI được sử dụng trong lĩnh vực nào sau đây?",
+    "question": "Câu 12: AI được sử dụng trong lĩnh vực nào sau đây?",
     "options": {
       "a": "Giáo dục",
       "b": "Tài chính",
@@ -121,7 +120,7 @@ const quizData = [
     "answer": "d"
   },
   {
-    "question": "13. Thành phần nào của điện thoại thông minh điều phối mọi hoạt động trên thiết bị?",
+    "question": "Câu 13: Thành phần nào của điện thoại thông minh điều phối mọi hoạt động trên thiết bị?",
     "options": {
       "a": "Camera chính",
       "b": "Pin",
@@ -131,7 +130,7 @@ const quizData = [
     "answer": "c"
   },
   {
-    "question": "14. Mục đích chính của việc điều chỉnh múi giờ trên thiết bị là gì?",
+    "question": "Câu 14: Mục đích chính của việc điều chỉnh múi giờ trên thiết bị là gì?",
     "options": {
       "a": "Tăng hiệu suất xử lý CPU",
       "b": "Giảm tiêu thụ pin",
@@ -141,7 +140,7 @@ const quizData = [
     "answer": "d"
   },
   {
-    "question": "15. Màn hình nào sử dụng đèn nền chiếu qua tinh thể lỏng để tạo hình ảnh?",
+    "question": "Câu 15: Màn hình nào sử dụng đèn nền chiếu qua tinh thể lỏng để tạo hình ảnh?",
     "options": {
       "a": "CRT",
       "b": "LCD",
@@ -151,7 +150,7 @@ const quizData = [
     "answer": "b"
   },
   {
-    "question": "16. Tiêu chí nào yêu cầu thông tin không bị thiên lệch hoặc lái dư luận?",
+    "question": "Câu 16: Tiêu chí nào yêu cầu thông tin không bị thiên lệch hoặc lái dư luận?",
     "options": {
       "a": "Độ chính xác",
       "b": "Tính khách quan",
@@ -161,7 +160,7 @@ const quizData = [
     "answer": "b"
   },
   {
-    "question": "17. Việc phân quyền người dùng trong truy xuất dữ liệu nhằm mục đích gì?",
+    "question": "Câu 17: Việc phân quyền người dùng trong truy xuất dữ liệu nhằm mục đích gì?",
     "options": {
       "a": "Giảm chi phí lưu trữ",
       "b": "Tăng tốc truy cập",
@@ -171,7 +170,7 @@ const quizData = [
     "answer": "d"
   },
   {
-    "question": "18. Đặc điểm phổ biến của thông tin giả mạo là gì?",
+    "question": "Câu 18: Đặc điểm phổ biến của thông tin giả mạo là gì?",
     "options": {
       "a": "Chỉ phát tán nội bộ trong quân đội",
       "b": "Thường đi kèm các báo cáo chính thống",
@@ -181,7 +180,7 @@ const quizData = [
     "answer": "d"
   },
   {
-    "question": "19. Nguyên tắc nào yêu cầu người dùng chỉ được cấp quyền đủ để thực hiện nhiệm vụ?",
+    "question": "Câu 19: Nguyên tắc nào yêu cầu người dùng chỉ được cấp quyền đủ để thực hiện nhiệm vụ?",
     "options": {
       "a": "Phân tán dữ liệu",
       "b": "Tối thiểu quyền",
@@ -191,7 +190,7 @@ const quizData = [
     "answer": "b"
   },
   {
-    "question": "20. Việc phân loại dữ liệu công vụ nhằm mục đích gì trong quản lý quyền truy cập?",
+    "question": "Câu 20: Việc phân loại dữ liệu công vụ nhằm mục đích gì trong quản lý quyền truy cập?",
     "options": {
       "a": "Lưu trữ dễ dàng hơn",
       "b": "Tăng tốc độ truyền tải dữ liệu",
@@ -201,17 +200,17 @@ const quizData = [
     "answer": "d"
   },
   {
-    "question": "21. Lợi ích chính của khai báo trực tuyến là gì?",
+    "question": "Câu 21: Lợi ích chính của khai báo trực tuyến là gì?",
     "options": {
       "a": "Giảm thủ tục, tiết kiệm thời gian",
       "b": "Tăng số lượng lao động sử dụng internet",
       "c": "Hạn chế giao tiếp xã hội",
       "d": "Giúp cơ quan nhà nước tăng thu ngân sách"
     },
-    "answer": "a"
+    "answer": ["a","b"]
   },
   {
-    "question": "22. Loại tác phẩm nào không thuộc danh mục được bảo vệ bản quyền theo luật hiện hành?",
+    "question": "Câu 22: Loại tác phẩm nào không thuộc danh mục được bảo vệ bản quyền theo luật hiện hành?",
     "options": {
       "a": "Tác phẩm nghe nhìn",
       "b": "Hình ảnh minh họa quảng cáo",
@@ -221,7 +220,7 @@ const quizData = [
     "answer": "c"
   },
   {
-    "question": "23. NotebookLM là công cụ do tổ chức nào phát triển?",
+    "question": "Câu 23: NotebookLM là công cụ do tổ chức nào phát triển?",
     "options": {
       "a": "OpenAI",
       "b": "Google",
@@ -231,7 +230,7 @@ const quizData = [
     "answer": "b"
   },
   {
-    "question": "24. Vì sao cần thực hiện quy trình lặp khi làm việc với AI?",
+    "question": "Câu 24: Vì sao cần thực hiện quy trình lặp khi làm việc với AI?",
     "options": {
       "a": "Vì AI có thể đoán chính xác mọi yêu cầu",
       "b": "Để tiết kiệm thời gian không cần kiểm tra lại",
@@ -241,7 +240,7 @@ const quizData = [
     "answer": "d"
   },
   {
-    "question": "25. Hành vi cài mã độc qua USB để đánh cắp thông tin thuộc loại mối nguy nào?",
+    "question": "Câu 25: Hành vi cài mã độc qua USB để đánh cắp thông tin thuộc loại mối nguy nào?",
     "options": {
       "a": "Gây hoang mang nội bộ",
       "b": "Tăng khối lượng lưu trữ trái phép",
@@ -251,7 +250,7 @@ const quizData = [
     "answer": "c"
   },
   {
-    "question": "26. Mật khẩu mạnh nên có ít nhất bao nhiêu ký tự?",
+    "question": "Câu 26: Mật khẩu mạnh nên có ít nhất bao nhiêu ký tự?",
     "options": {
       "a": "8 ký tự",
       "b": "6 ký tự",
@@ -261,7 +260,7 @@ const quizData = [
     "answer": "c"
   },
   {
-    "question": "27. Nguyên nhân chính khiến ánh sáng xanh từ màn hình gây rối loạn giấc ngủ là gì?",
+    "question": "Câu 27: Nguyên nhân chính khiến ánh sáng xanh từ màn hình gây rối loạn giấc ngủ là gì?",
     "options": {
       "a": "Làm rối loạn nhịp sinh học tự nhiên của cơ thể",
       "b": "Làm mắt chói",
@@ -271,7 +270,7 @@ const quizData = [
     "answer": "a"
   },
   {
-    "question": "28. Một trong các yếu tố quan trọng khi lựa chọn giải pháp công nghệ là gì?",
+    "question": "Câu 28: Một trong các yếu tố quan trọng khi lựa chọn giải pháp công nghệ là gì?",
     "options": {
       "a": "Có nhiều tính năng phức tạp",
       "b": "Khả năng mở rộng và thích ứng với nhu cầu trong tương lai",
@@ -281,7 +280,7 @@ const quizData = [
     "answer": "b"
   },
   {
-    "question": "29. Sau khi triển khai giải pháp xử lý sự cố, việc kiểm tra lại hệ thống có mục đích gì?",
+    "question": "Câu 29: Sau khi triển khai giải pháp xử lý sự cố, việc kiểm tra lại hệ thống có mục đích gì?",
     "options": {
       "a": "Để chuẩn bị đưa vào bảo trì định kỳ",
       "b": "Để đảm bảo hoàn thành quy trình giấy tờ",
@@ -291,7 +290,7 @@ const quizData = [
     "answer": "d"
   },
   {
-    "question": "30. Khi lựa chọn phần mềm BPM, yếu tố khả năng mở rộng có nghĩa là gì?",
+    "question": "Câu 30: Khi lựa chọn phần mềm BPM, yếu tố khả năng mở rộng có nghĩa là gì?",
     "options": {
       "a": "Đáp ứng được nhu cầu tăng trưởng trong tương lai",
       "b": "Tự động viết báo cáo khi hoàn thành quy trình",
@@ -301,7 +300,7 @@ const quizData = [
     "answer": "a"
   },
   {
-    "question": "1. Tổ chức có thể áp dụng chuyển đổi số vào những hoạt động nào?",
+    "question": "Câu 31: Tổ chức có thể áp dụng chuyển đổi số vào những hoạt động nào?",
     "options": {
       "a": "Marketing, Kế toán – tài chính, Quản lý rủi ro, Bán hàng, Chăm sóc khách hàng, Nghiên cứu thị trường, Quản lý nhân sự, Chuỗi cung ứng",
       "b": "Tất cả các mục trên"
@@ -309,7 +308,7 @@ const quizData = [
     "answer": "b"
   },
   {
-    "question": "2. Hệ thống nào giúp kết nối, chia sẻ dữ liệu giữa các cơ quan nhà nước?",
+    "question": "Câu 32: Hệ thống nào giúp kết nối, chia sẻ dữ liệu giữa các cơ quan nhà nước?",
     "options": {
       "a": "Trục liên thông quốc gia, Nền tảng tích hợp chia sẻ dữ liệu (NDXP), Hệ thống dữ liệu dùng chung, Trung tâm dữ liệu quốc gia",
       "b": "Nền tảng tích hợp chia sẻ dữ liệu (NDXP)"
@@ -317,7 +316,7 @@ const quizData = [
     "answer": "b"
   },
   {
-    "question": "3. Ứng dụng chính thức của Bảo hiểm xã hội Việt Nam trên nền tảng thiết bị di động là gì?",
+    "question": "Câu 33: Ứng dụng chính thức của Bảo hiểm xã hội Việt Nam trên nền tảng thiết bị di động là gì?",
     "options": {
       "a": "VNeID, VinID, VnID, VssID",
       "b": "VssID"
@@ -325,7 +324,7 @@ const quizData = [
     "answer": "b"
   },
   {
-    "question": "4. Các hình thức thanh toán không dùng tiền mặt phổ biến hiện nay là gì?",
+    "question": "Câu 34: Các hình thức thanh toán không dùng tiền mặt phổ biến hiện nay là gì?",
     "options": {
       "a": "Thanh toán bằng tiền mặt, Dùng ví điện tử, Quét mã QR, Chuyển khoản ngân hàng",
       "b": "Dùng ví điện tử, Quét mã QR, Chuyển khoản ngân hàng"
@@ -333,7 +332,7 @@ const quizData = [
     "answer": "b"
   },
   {
-    "question": "5. Lợi ích của ứng dụng bản đồ số là gì?",
+    "question": "Câu 35: Lợi ích của ứng dụng bản đồ số là gì?",
     "options": {
       "a": "Tra cứu địa điểm nhanh chóng, Xác định vị trí hiện tại, Gửi tiền trực tiếp, Chỉ đường thông minh",
       "b": "Tra cứu địa điểm nhanh chóng, Xác định vị trí hiện tại, Chỉ đường thông minh"
@@ -341,39 +340,33 @@ const quizData = [
     "answer": "b"
   },
   {
-    "question": "6. Bị mất điện thoại đang sử dụng tài khoản định danh điện tử thì cần làm gì?",
-    "options": {
-      "a": "Không làm gì cả., Xóa tài khoản và đăng ký lại., Cấp lại số điện thoại và khóa tài khoản định danh., Thay điện thoại mới và sử dụng bình thường.",
-      "b": "Cấp lại số điện thoại và khóa tài khoản định danh."
-    },
-    "answer": "b"
-  },
-  {
-    "question": "7. Các kỹ thuật tấn công mạng hiện đại thường sử dụng?",
+    "question": "Câu 36: Các kỹ thuật tấn công mạng hiện đại thường sử dụng?",
     "options": {
       "a": "Spear phishing, Tấn công bằng mã độc tàng hình, Tấn công bằng khai thác 0-day, Tấn công qua AI",
-      "b": "Spear phishing, Tấn công bằng mã độc tàng hình, Tấn công bằng khai thác 0-day, Tấn công qua AI"
+      "b": "Tất cả các đáp án trên"
     },
     "answer": "b"
   },
   {
-    "question": "8. Để bảo vệ trẻ em trên không gian mạng, Chính phủ Việt Nam đã ban hành Nghị định nào quy định chi tiết một số điều của Luật An ninh mạng, trong đó có nội dung về bảo vệ trẻ em?",
+    "question": "Câu 37: Để bảo vệ trẻ em trên không gian mạng, Chính phủ Việt Nam đã ban hành Nghị định nào quy định chi tiết một số điều của Luật An ninh mạng, trong đó có nội dung về bảo vệ trẻ em?",
     "options": {
-      "a": "Nghị định số 15/2020/NĐ-CP, Nghị định số 64/2007/NĐ-CP, Nghị định số 53/2022/NĐ-CP, Nghị định số 72/2013/NĐ-CP",
-      "b": "Nghị định số 72/2013/NĐ-CP"
+      "a": "Nghị định số 15/2020/NĐ-CP",
+      "b": "Nghị định số 64/2007/NĐ-CP",
+      "c": "Nghị định số 53/2022/NĐ-CP",
+      "d": "Nghị định số 72/2013/NĐ-CP"
     },
-    "answer": "b"
+    "answer": "d"
   },
   {
-    "question": "9. Các hình thức tấn công mạng phổ biến hiện nay là gì?",
+    "question": "Câu 38: Các hình thức tấn công mạng phổ biến hiện nay là gì?",
     "options": {
       "a": "Tấn công mã độc, Tấn công trung gian (MITM), Tấn công phishing, Tấn công từ chối dịch vụ (DDoS)",
-      "b": "Tấn công mã độc, Tấn công trung gian (MITM), Tấn công phishing, Tấn công từ chối dịch vụ (DDoS)"
+      "b": "Tất cả các đáp án trên"
     },
     "answer": "b"
   },
   {
-    "question": "10. Ứng dụng AI trong quản trị hệ thống CNTT mang lại lợi ích gì?",
+    "question": "Câu 39: Ứng dụng AI trong quản trị hệ thống CNTT mang lại lợi ích gì?",
     "options": {
       "a": "Tự động cảnh báo sự cố, Tự động nâng cấp phần mềm, Phân tích hiệu suất hệ thống, Dự báo lỗi phần cứng",
       "b": "Tự động cảnh báo sự cố, Phân tích hiệu suất hệ thống, Dự báo lỗi phần cứng"
@@ -381,7 +374,7 @@ const quizData = [
     "answer": "b"
   },
   {
-    "question": "11. AI yếu (Weak AI) là gì?",
+    "question": "Câu 40: AI yếu (Weak AI) là gì?",
     "options": {
       "a": "AI có khả năng tư duy như con người, AI điều khiển robot, AI thực hiện một nhiệm vụ cụ thể, AI có thể tự học mọi thứ",
       "b": "AI thực hiện một nhiệm vụ cụ thể"
@@ -389,7 +382,7 @@ const quizData = [
     "answer": "b"
   },
   {
-    "question": "12. AI có thể làm gì trong lĩnh vực tài chính?",
+    "question": "Câu 41: AI có thể làm gì trong lĩnh vực tài chính?",
     "options": {
       "a": "Tư vấn đầu tư, Tất cả các ý trên, Phát hiện gian lận, Phân tích dữ liệu",
       "b": "Tất cả các ý trên"
@@ -397,135 +390,41 @@ const quizData = [
     "answer": "b"
   },
   {
-    "question": "13. Lý do cần kiểm soát dữ liệu khi dùng Hotspot là gì?",
+    "question": "Câu 42: Lý do cần kiểm soát dữ liệu khi dùng Hotspot là gì?",
     "options": {
-      "a": "Để cải thiện sóng Wi-Fi, Để tăng tuổi thọ pin, Để làm sạch bộ nhớ RAM, Để tránh vượt giới hạn dung lượng di động",
+      "a": "Để cải thiện sóng Wi-Fi, Để tăng tuổi thọ pin, Để làm sạch bộ nhớ RAM",
       "b": "Để tránh vượt giới hạn dung lượng di động"
     },
     "answer": "b"
   },
   {
-    "question": "14. Thành phần nào của điện thoại thông minh điều phối mọi hoạt động trên thiết bị?",
+    "question": "Câu 43: Khi tắt máy tính bằng Windows, bước đầu tiên là gì?",
     "options": {
-      "a": "Pin, Camera chính, Hệ điều hành (Android hoặc iOS), Bộ xử lý đồ họa (GPU)",
-      "b": "Hệ điều hành (Android hoặc iOS)"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "15. Khi tắt máy tính bằng Windows, bước đầu tiên là gì?",
-    "options": {
-      "a": "Gập màn hình lại, Ngắt kết nối Internet, Nhấn giữ nút nguồn trong 5 giây, Chọn “Start” trên giao diện hệ điều hành",
+      "a": "Gập màn hình lại, Ngắt kết nối Internet, Nhấn giữ nút nguồn trong 5 giây",
       "b": "Chọn “Start” trên giao diện hệ điều hành"
     },
     "answer": "b"
   },
   {
-    "question": "16. Tại sao cần xác minh nguồn và tác giả thông tin?",
+    "question": "Câu 44: Một hành vi giúp đồng chí kiểm soát hình ảnh cá nhân trên mạng xã hội là:",
     "options": {
-      "a": "Để biết người viết có nhiều người theo dõi không, Để đảm bảo tác giả là người có chuyên môn và đáng tin cậy, Để biết nguồn có nổi tiếng không, Để biết người viết có thường xuyên đăng không",
-      "b": "Để đảm bảo tác giả là người có chuyên môn và đáng tin cậy"
+        "a": "Gửi bài đăng cho nhiều nhóm khác nhau",
+        "b": "Kết bạn với tất cả những người gửi lời mời",
+        "c": "Cài đặt quyền riêng tư phù hợp và kiểm soát bài đăng",
+        "d": "Đăng tải nội dung công khai để tăng lượt tương tác"
     },
-    "answer": "b"
+    "answer": "c"
   },
   {
-    "question": "17. Đặc điểm phổ biến của thông tin giả mạo là gì?",
+    "question": "Câu 45: Hành động nào sau đây giúp kéo dài vòng đời của thiết bị điện tử?",
     "options": {
-      "a": "Được kiểm chứng rõ ràng, Chỉ phát tán nội bộ trong quân đội, Thường đi kèm các báo cáo chính thống, Mạo danh cán bộ, sử dụng hình ảnh, tên tuổi thật để tạo lòng tin",
-      "b": "Mạo danh cán bộ, sử dụng hình ảnh, tên tuổi thật để tạo lòng tin"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "18. Nguồn dữ liệu quân sự nào sau đây là không phù hợp để sử dụng?",
-    "options": {
-      "a": "Báo cáo tình báo, Dữ liệu trinh sát, Trang web không xác thực ngoài quân đội, Hệ thống tác chiến số hóa",
-      "b": "Trang web không xác thực ngoài quân đội"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "19. Người dùng có trách nhiệm gì khi tham gia mạng xã hội?",
-    "options": {
-      "a": "Tự do phát ngôn không cần kiểm soát, Không cần phối hợp khi có hành vi vi phạm, Chịu trách nhiệm về hành vi, phối hợp xử lý khi có vi phạm, Chia sẻ mọi thông tin cá nhân để chứng minh minh bạch",
-      "b": "Chịu trách nhiệm về hành vi, phối hợp xử lý khi có vi phạm"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "21. Thông tin nào đồng chí không nắm quyền kiểm soát trên mạng xã hội?",
-    "options": {
-      "a": "Cài đặt hiển thị trên tài khoản, Họ tên, số điện thoại, Bình luận, đánh giá từ người khác về nội dung đồng chí chia sẻ, Hình ảnh cá nhân đồng chí tự đăng",
-      "b": "Bình luận, đánh giá từ người khác về nội dung đồng chí chia sẻ"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "22. Hành vi nào sau đây được coi là vi phạm bản quyền?",
-    "options": {
-      "a": "Tạo nội dung mới có cảm hứng từ tác phẩm gốc, Sao chép, chia sẻ nội dung mà chưa xin phép hoặc trả phí, Trích dẫn tác phẩm có ghi rõ nguồn, Bình luận nội dung trên mạng xã hội",
-      "b": "Sao chép, chia sẻ nội dung mà chưa xin phép hoặc trả phí"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "23. Điều gì là quan trọng nhất trong quá trình thuyết trình, theo nội dung bài học?",
-    "options": {
-      "a": "Có slide thiết kế đẹp, Có đầy đủ dữ liệu minh họa, Người trình bày nắm chắc nội dung, luyện tập kỹ lưỡng và ứng biến tốt, Dùng đúng công cụ AI phù hợp",
-      "b": "Người trình bày nắm chắc nội dung, luyện tập kỹ lưỡng và ứng biến tốt"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "25. Hội chứng thị giác màn hình thường xảy ra khi dùng thiết bị trên bao lâu mỗi ngày?",
-    "options": {
-      "a": "1 giờ, 3 giờ, 5 giờ, 30 phút",
-      "b": "3 giờ"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "26. Hành động nào sau đây giúp kéo dài vòng đời của thiết bị điện tử?",
-    "options": {
-      "a": "Luôn bật thiết bị kể cả khi không dùng, Chạy ứng dụng nặng liên tục, Vứt bỏ thiết bị sau 1-2 năm sử dụng, Sửa chữa, nâng cấp và bán lại thiết bị thay vì vứt đi",
+      "a": "Luôn bật thiết bị kể cả khi không dùng, Chạy ứng dụng nặng liên tục, Vứt bỏ thiết bị sau 1-2 năm sử dụng",
       "b": "Sửa chữa, nâng cấp và bán lại thiết bị thay vì vứt đi"
     },
     "answer": "b"
   },
   {
-    "question": "27. Hành vi cài mã độc qua USB để đánh cắp thông tin thuộc loại mối nguy nào?",
-    "options": {
-      "a": "Tăng khối lượng lưu trữ trái phép, Gây ảnh hưởng dư luận, Gây hoang mang nội bộ, Gây rò rỉ thông tin mật, ảnh hưởng an ninh thông tin",
-      "b": "Gây rò rỉ thông tin mật, ảnh hưởng an ninh thông tin"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "28. Khi lựa chọn phần mềm BPM, yếu tố khả năng mở rộng có nghĩa là gì?",
-    "options": {
-      "a": "Tự động viết báo cáo khi hoàn thành quy trình, Đáp ứng được nhu cầu tăng trưởng trong tương lai, Khả năng tự cập nhật nội dung quy trình tự động, Tốc độ xử lý phần mềm nhanh hơn",
-      "b": "Đáp ứng được nhu cầu tăng trưởng trong tương lai"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "29. Tại sao cần đánh giá rủi ro khi xác định nhu cầu công nghệ?",
-    "options": {
-      "a": "Để so sánh với các đơn vị khác, Giúp chuẩn bị trước các tình huống bất lợi có thể xảy ra, Để tăng tính bảo mật trong khâu triển khai, Để biết giải pháp nào đắt hơn",
-      "b": "Giúp chuẩn bị trước các tình huống bất lợi có thể xảy ra"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "30. SAVIS BPM Paperless phù hợp với đơn vị có đặc thù gì?",
-    "options": {
-      "a": "Cần tích hợp ERP đa quốc gia, Chỉ sử dụng nội bộ cho đào tạo, Cần bảo mật cao và tuân thủ pháp luật về giao dịch điện tử, Ưa chuộng thiết kế giao diện hoạt hình",
-      "b": "Cần bảo mật cao và tuân thủ pháp luật về giao dịch điện tử"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "1. Ứng dụng công nghệ số nào được sử dụng phổ biến trong ngành ngân hàng?",
+    "question": "Câu 46: Ứng dụng công nghệ số nào được sử dụng phổ biến trong ngành ngân hàng?",
     "options": {
       "a": "Blockchain",
       "b": "Chatbot tư vấn tài chính",
@@ -535,7 +434,7 @@ const quizData = [
     "answer": ["a", "b", "c", "d"]
   },
   {
-    "question": "2. Khi nào được mở khóa tài khoản định danh?",
+    "question": "Câu 47: Khi nào được mở khóa tài khoản định danh?",
     "options": {
       "a": "Cơ quan có thẩm quyền yêu cầu",
       "b": "Khi hết căn cứ khóa",
@@ -544,7 +443,7 @@ const quizData = [
     "answer": ["a", "b"]
   },
   {
-    "question": "3. Tài khoản định danh mức 2 dùng để làm gì?",
+    "question": "Câu 48: Tài khoản định danh mức 2 dùng để làm gì?",
     "options": {
       "a": "Xác minh giao dịch",
       "b": "Tất cả phương án trên",
@@ -554,7 +453,7 @@ const quizData = [
     "answer": "b"
   },
   {
-    "question": "4. Lợi ích của việc dùng dịch vụ lưu trữ đám mây?",
+    "question": "Câu 49: Lợi ích của việc dùng dịch vụ lưu trữ đám mây?",
     "options": {
       "a": "Truy cập mọi nơi",
       "b": "Tự động sao lưu dữ liệu",
@@ -564,7 +463,7 @@ const quizData = [
     "answer": ["a", "b", "c"]
   },
   {
-    "question": "5. Người dùng có thể sử dụng mã QR để làm gì?",
+    "question": "Câu 50: Người dùng có thể sử dụng mã QR để làm gì?",
     "options": {
       "a": "Truy cập nhanh website",
       "b": "Gửi bưu phẩm",
@@ -574,7 +473,7 @@ const quizData = [
     "answer": ["a", "c", "d"]
   },
   {
-    "question": "6. Nguyên tắc kích hoạt tài khoản định danh điện tử?",
+    "question": "Câu 51: Nguyên tắc kích hoạt tài khoản định danh điện tử?",
     "options": {
       "a": "Kích hoạt tối đa 2 tài khoản",
       "b": "Kích hoạt tối đa 3 tài khoản",
@@ -584,7 +483,7 @@ const quizData = [
     "answer": "c"
   },
   {
-    "question": "7. Tại sao cần cập nhật phần mềm thường xuyên?",
+    "question": "Câu 52: Tại sao cần cập nhật phần mềm thường xuyên?",
     "options": {
       "a": "Cả A và B đúng",
       "b": "Khắc phục lỗi bảo mật",
@@ -594,7 +493,7 @@ const quizData = [
     "answer": "a"
   },
   {
-    "question": "8. Tại sao không nên sử dụng Wi-Fi công cộng không bảo mật?",
+    "question": "Câu 53: Tại sao không nên sử dụng Wi-Fi công cộng không bảo mật?",
     "options": {
       "a": "Tin tặc có thể chặn thông tin truyền",
       "b": "Dễ bị nghe lén dữ liệu",
@@ -604,7 +503,7 @@ const quizData = [
     "answer": ["a", "b", "c", "d"]
   },
   {
-    "question": "9. Khi nghi ngờ bị lộ thông tin, bạn nên làm gì trước tiên?",
+    "question": "Câu 54: Khi nghi ngờ bị lộ thông tin, bạn nên làm gì trước tiên?",
     "options": {
       "a": "Xóa tài khoản",
       "b": "Báo cáo quản trị viên",
@@ -614,7 +513,7 @@ const quizData = [
     "answer": "c"
   },
   {
-    "question": "11. Vai trò của AI trong việc phòng thủ phi truyền thống là gì?",
+    "question": "Câu 55: Vai trò của AI trong việc phòng thủ phi truyền thống là gì?",
     "options": {
       "a": "Theo dõi dịch bệnh",
       "b": "Dự đoán thảm họa tự nhiên",
@@ -624,7 +523,7 @@ const quizData = [
     "answer": ["a", "b", "c", "d"]
   },
   {
-    "question": "12. AI giúp gì trong đào tạo cá nhân hóa?",
+    "question": "Câu 56: AI giúp gì trong đào tạo cá nhân hóa?",
     "options": {
       "a": "Xây dựng lộ trình học riêng",
       "b": "Phân tích điểm mạnh/yếu",
@@ -634,7 +533,7 @@ const quizData = [
     "answer": "c"
   },
   {
-    "question": "15. Một trong những nguyên nhân phần mềm khiến mất kết nối mạng là gì?",
+    "question": "Câu 57: Một trong những nguyên nhân phần mềm khiến mất kết nối mạng là gì?",
     "options": {
       "a": "RAM yếu",
       "b": "Loa bị hỏng",
@@ -644,7 +543,7 @@ const quizData = [
     "answer": "c"
   },
   {
-    "question": "16. Vì sao thông tin cần có nguồn gốc và thẩm quyền rõ ràng?",
+    "question": "Câu 58: Vì sao thông tin cần có nguồn gốc và thẩm quyền rõ ràng?",
     "options": {
       "a": "Để rút ngắn nội dung",
       "b": "Để xác minh tính đáng tin cậy của tác giả hoặc tổ chức",
@@ -654,27 +553,7 @@ const quizData = [
     "answer": "b"
   },
   {
-    "question": "19. Việc phân loại dữ liệu công vụ nhằm mục đích gì trong quản lý quyền truy cập?",
-    "options": {
-      "a": "Tối ưu bộ nhớ hệ thống",
-      "b": "Xác định mức truy cập phù hợp",
-      "c": "Lưu trữ dễ dàng hơn",
-      "d": "Tăng tốc độ truyền tải dữ liệu"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "20. Nguyên tắc nào yêu cầu người dùng chỉ được cấp quyền đủ để thực hiện nhiệm vụ?",
-    "options": {
-      "a": "Truy cập mở",
-      "b": "Phân tán dữ liệu",
-      "c": "Tối thiểu quyền",
-      "d": "Bảo mật nhiều lớp"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "21. Khai báo bảo hiểm xã hội trực tuyến giúp người dân và đơn vị thực hiện gì?",
+    "question": "Câu 59: Khai báo bảo hiểm xã hội trực tuyến giúp người dân và đơn vị thực hiện gì?",
     "options": {
       "a": "Tra cứu điểm thi",
       "b": "Đăng ký, khai báo, đóng BHXH, BHYT, BHTN",
@@ -684,7 +563,7 @@ const quizData = [
     "answer": "b"
   },
   {
-    "question": "22. Chức năng Briefing doc trong NotebookLM có tác dụng gì?",
+    "question": "Câu 60: Chức năng Briefing doc trong NotebookLM có tác dụng gì?",
     "options": {
       "a": "Tạo bản tóm tắt nội dung cho cuộc họp/thuyết trình",
       "b": "Tạo file âm thanh từ bài viết",
@@ -694,7 +573,7 @@ const quizData = [
     "answer": "a"
   },
   {
-    "question": "25. Mối nguy nào thường xảy ra trước mùa tuyển quân do các thế lực thù địch gây ra?",
+    "question": "Câu 61: Mối nguy nào thường xảy ra trước mùa tuyển quân do các thế lực thù địch gây ra?",
     "options": {
       "a": "Phát động phong trào thanh niên",
       "b": "Tuyên truyền thông tin xấu độc làm giảm tinh thần nhập ngũ",
@@ -704,7 +583,7 @@ const quizData = [
     "answer": "b"
   },
   {
-    "question": "27. Trình quản lý mật khẩu có tác dụng gì?",
+    "question": "Câu 62: Trình quản lý mật khẩu có tác dụng gì?",
     "options": {
       "a": "Đặt mật khẩu giống nhau cho tất cả tài khoản",
       "b": "Tự động thay đổi mật khẩu mỗi tuần",
@@ -714,37 +593,7 @@ const quizData = [
     "answer": "d"
   },
   {
-    "question": "28. Khoảng cách năng lực số là gì?",
-    "options": {
-      "a": "Khác biệt giữa người sử dụng tốt công nghệ số và người không có điều kiện tiếp cận",
-      "b": "Khác biệt giữa người già và người trẻ",
-      "c": "Sự chênh lệch thu nhập giữa người làm CNTT và người lao động phổ thông",
-      "d": "Khoảng cách về mức sống giữa nông thôn và thành thị"
-    },
-    "answer": "a"
-  },
-  {
-    "question": "29. Phương pháp “5 Tại sao” (5 Why) dùng để làm gì trong xử lý sự cố?",
-    "options": {
-      "a": "Đưa ra mô hình bảo trì mới",
-      "b": "Tìm nguyên nhân gốc rễ của sự cố",
-      "c": "Gợi ý cách sửa chữa tức thời",
-      "d": "Đánh giá hiệu suất của thiết bị"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "30. Phần mềm BPM hỗ trợ chức năng nào sau đây?",
-    "options": {
-      "a": "Tự động hóa thiết kế phần cứng",
-      "b": "Thiết kế, thực hiện, theo dõi và tối ưu hóa quy trình",
-      "c": "Ghi nhận điểm danh hàng ngày",
-      "d": "Lập kế hoạch tài chính"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "1. Khái niệm tài khoản định danh điện tử?",
+    "question": "Câu 63: Khái niệm tài khoản định danh điện tử?",
     "options": {
       "a": "Tài khoản số để xác thực cá nhân",
       "b": "Tài khoản đăng nhập mạng xã hội",
@@ -754,17 +603,16 @@ const quizData = [
     "answer": "a"
   },
   {
-    "question": "2. Tài khoản định danh bị khóa khi nào?",
+    "question": "Câu 64: Tài khoản định danh bị khóa khi nào?",
     "options": {
       "a": "Tòa án yêu cầu",
-      "b": "A và B đúng",
-      "c": "Có yêu cầu từ cơ quan chức năng",
-      "d": "Chủ thể chết hoặc thu hồi CCCD"
+      "b": "Có yêu cầu từ cơ quan chức năng",
+      "c": "Chủ thể chết hoặc thu hồi CCCD"
     },
-    "answer": "b"
+    "answer": ["b","c"]
   },
   {
-    "question": "3. Chuyển đổi số trong y tế mang lại lợi ích nào?",
+    "question": "Câu 65: Chuyển đổi số trong y tế mang lại lợi ích nào?",
     "options": {
       "a": "Quản lý hồ sơ sức khỏe điện tử",
       "b": "Tất cả các phương án trên",
@@ -774,7 +622,7 @@ const quizData = [
     "answer": "b"
   },
   {
-    "question": "4. Người dân có thể thực hiện dịch vụ công nào qua VNeID?",
+    "question": "Câu 66: Người dân có thể thực hiện dịch vụ công nào qua VNeID?",
     "options": {
       "a": "Đăng ký thẻ tín dụng",
       "b": "Cấp lại CCCD",
@@ -784,7 +632,7 @@ const quizData = [
     "answer": "b"
   },
   {
-    "question": "5. Khi sử dụng ứng dụng mobile banking, người dùng nên làm gì để tăng bảo mật?",
+    "question": "Câu 67: Khi sử dụng ứng dụng mobile banking, người dùng nên làm gì để tăng bảo mật?",
     "options": {
       "a": "Lưu thông tin đăng nhập trong tin nhắn",
       "b": "Cài đặt mã PIN mạnh",
@@ -794,7 +642,7 @@ const quizData = [
     "answer": ["b", "c", "d"]
   },
   {
-    "question": "6. Ứng dụng công nghệ trong du lịch giúp du khách làm gì?",
+    "question": "Câu 68: Ứng dụng công nghệ trong du lịch giúp du khách làm gì?",
     "options": {
       "a": "Mua vé máy bay",
       "b": "Đặt phòng khách sạn",
@@ -804,7 +652,7 @@ const quizData = [
     "answer": ["a", "b", "d"]
   },
   {
-    "question": "7. Mã độc tấn công có thể được cài vào thiết bị quân sự bằng cách nào?",
+    "question": "Câu 69: Mã độc tấn công có thể được cài vào thiết bị quân sự bằng cách nào?",
     "options": {
       "a": "Phần mềm giả mạo",
       "b": "USB nhiễm virus",
@@ -814,18 +662,7 @@ const quizData = [
     "answer": "d"
   },
   {
-    "question": "9. Các hình thức tấn công mạng phổ biến hiện nay là gì?",
-    "options": {
-      "a": "Tấn công phishing",
-      "b": "Tấn công mã độc",
-      "c": "Tấn công từ chối dịch vụ (DDoS)",
-      "d": "Tấn công trung gian (MITM)",
-      "e": "Cả 4 đáp án đều đúng"
-    },
-    "answer": "e"
-  },
-  {
-    "question": "10. AI hỗ trợ giám sát mạng trong an toàn thông tin chủ yếu bằng cách nào?",
+    "question": "Câu 70: AI hỗ trợ giám sát mạng trong an toàn thông tin chủ yếu bằng cách nào?",
     "options": {
       "a": "Tạo báo cáo thủ công về các sự cố bảo mật trong hệ thống mạng",
       "b": "Phát hiện và ngăn chặn các cuộc tấn công mạng như DDoS hoặc xâm nhập trái phép",
@@ -835,7 +672,7 @@ const quizData = [
     "answer": "b"
   },
   {
-    "question": "11. Ứng dụng AI nào trong giáo dục giúp cải thiện kỹ năng ngôn ngữ?",
+    "question": "Câu 71: Ứng dụng AI nào trong giáo dục giúp cải thiện kỹ năng ngôn ngữ?",
     "options": {
       "a": "Duolingo",
       "b": "Grammarly",
@@ -845,7 +682,7 @@ const quizData = [
     "answer": "c"
   },
   {
-    "question": "12. AI có thể được tích hợp trong thiết bị nào?",
+    "question": "Câu 72: AI có thể được tích hợp trong thiết bị nào?",
     "options": {
       "a": "Tivi",
       "b": "Đồng hồ thông minh",
@@ -855,7 +692,7 @@ const quizData = [
     "answer": "d"
   },
   {
-    "question": "13. CPU điều phối hoạt động của các bộ phận nào sau đây?",
+    "question": "Câu 73: CPU điều phối hoạt động của các bộ phận nào sau đây?",
     "options": {
       "a": "RAM, ổ cứng, GPU và các thiết bị ngoại vi",
       "b": "Chỉ mạng và âm thanh",
@@ -865,7 +702,7 @@ const quizData = [
     "answer": "a"
   },
   {
-    "question": "16. Kỹ thuật nào giúp nâng cao hiệu quả tìm kiếm dữ liệu quân sự?",
+    "question": "Câu 74: Kỹ thuật nào giúp nâng cao hiệu quả tìm kiếm dữ liệu quân sự?",
     "options": {
       "a": "Dùng tài khoản công cộng truy cập nhanh",
       "b": "Sử dụng từ khóa chính xác và phân loại thông tin theo cấp độ bảo mật",
@@ -875,7 +712,7 @@ const quizData = [
     "answer": "b"
   },
   {
-    "question": "17. Một điểm yếu của phương pháp kiểm chứng truyền thống là gì?",
+    "question": "Câu 75: Một điểm yếu của phương pháp kiểm chứng truyền thống là gì?",
     "options": {
       "a": "Không có công cụ trích dẫn",
       "b": "Không sử dụng được trong nghiên cứu",
@@ -885,7 +722,7 @@ const quizData = [
     "answer": "c"
   },
   {
-    "question": "19. Hành vi nào sau đây thuộc quy tắc lành mạnh trên mạng xã hội?",
+    "question": "Câu 76: Hành vi nào sau đây thuộc quy tắc lành mạnh trên mạng xã hội?",
     "options": {
       "a": "Chia sẻ nội dung kích động, phản cảm",
       "b": "Tạo tài khoản ẩn danh để tránh trách nhiệm pháp lý",
@@ -895,17 +732,7 @@ const quizData = [
     "answer": "d"
   },
   {
-    "question": "20. Khai báo bảo hiểm xã hội trực tuyến giúp người dân và đơn vị thực hiện gì?",
-    "options": {
-      "a": "Đăng ký, khai báo, đóng BHXH, BHYT, BHTN",
-      "b": "Tra cứu điểm thi",
-      "c": "Mua bảo hiểm du lịch",
-      "d": "Tìm việc làm trực tuyến"
-    },
-    "answer": "a"
-  },
-  {
-    "question": "22. Khi nhận được phản hồi chưa đạt yêu cầu từ AI, ta nên làm gì?",
+    "question": "Câu 77: Khi nhận được phản hồi chưa đạt yêu cầu từ AI, ta nên làm gì?",
     "options": {
       "a": "Bỏ qua và bắt đầu lại hoàn toàn",
       "b": "Lặp lại yêu cầu giống hệt lần đầu",
@@ -915,7 +742,7 @@ const quizData = [
     "answer": "c"
   },
   {
-    "question": "24. Để bắt đầu sử dụng NotebookLM, người dùng cần thao tác đầu tiên là gì?",
+    "question": "Câu 78: Để bắt đầu sử dụng NotebookLM, người dùng cần thao tác đầu tiên là gì?",
     "options": {
       "a": "Viết đoạn chat tương tác đầu tiên với hệ thống",
       "b": "Tải tài liệu lên",
@@ -925,7 +752,7 @@ const quizData = [
     "answer": "d"
   },
   {
-    "question": "26. Việc dùng thiết bị điện tử sai tư thế lâu dài có thể gây ảnh hưởng gì đến cơ thể?",
+    "question": "Câu 79: Việc dùng thiết bị điện tử sai tư thế lâu dài có thể gây ảnh hưởng gì đến cơ thể?",
     "options": {
       "a": "Rối loạn cơ xương khớp như đau cổ, vai, gáy",
       "b": "Cải thiện tuần hoàn máu",
@@ -935,7 +762,7 @@ const quizData = [
     "answer": "a"
   },
   {
-    "question": "1. Công nghệ nào hỗ trợ giám sát, điều hành tài chính công hiệu quả?",
+    "question": "Câu 80: Công nghệ nào hỗ trợ giám sát, điều hành tài chính công hiệu quả?",
     "options": {
       "a": "Tự động hóa báo cáo ngân sách",
       "b": "Hệ thống Dashboard trực quan",
@@ -945,28 +772,21 @@ const quizData = [
     "answer": ["a", "b", "c"]
   },
   {
-    "question": "2. Ứng dụng công nghệ số nào được sử dụng phổ biến trong ngành ngân hàng?",
-    "options": {
-      "a": "Chatbot tư vấn tài chính",
-      "b": "Blockchain",
-      "c": "Ngân hàng số",
-      "d": "Trí tuệ nhân tạo"
-    },
-    "answer": ["a", "b", "c", "d"]
-  },
-  {
-    "question": "3. Những công nghệ nào được xem là cốt lõi trong chuyển đổi số?",
+    "question": "Câu 81: Những công nghệ nào được xem là cốt lõi trong chuyển đổi số?",
     "options": {
       "a": "Big Data",
       "b": "AR/VR",
       "c": "5G",
       "d": "AI",
-      "e": "IoT, Blockchain, Cloud, RPA"
+      "e": "RPA",
+      "f": "IoT",
+      "g": "Blockchain",
+      "h": "Cloud"
     },
-    "answer": ["a", "b", "c", "d", "e"]
+    "answer": ["a", "b", "c", "d", "e", "f", "g", "h"]
   },
   {
-    "question": "4. Khi đăng ký tài khoản định danh điện tử, có cần số điện thoại chính chủ không?",
+    "question": "Câu 82: Khi đăng ký tài khoản định danh điện tử, có cần số điện thoại chính chủ không?",
     "options": {
       "a": "Sử dụng một số điện bất kỳ dù không sử dụng, miễn có là được",
       "b": "Không bắt buộc sử dụng số điện thoại chính chủ, nhưng khuyến khích sử dụng vì vấn đề an toàn bảo mật",
@@ -976,7 +796,7 @@ const quizData = [
     "answer": "b"
   },
   {
-    "question": "5. Đâu là nền tảng giao tiếp trực tuyến phổ biến hiện nay?",
+    "question": "Câu 83: Đâu là nền tảng giao tiếp trực tuyến phổ biến hiện nay?",
     "options": {
       "a": "Microsoft Teams",
       "b": "Zoom",
@@ -986,7 +806,7 @@ const quizData = [
     "answer": ["a", "b", "c", "d"]
   },
   {
-    "question": "6. Thông tin đăng ký trên VNeID được bảo mật bằng?",
+    "question": "Câu 84: Thông tin đăng ký trên VNeID được bảo mật bằng?",
     "options": {
       "a": "Tự động lưu trữ đám mây",
       "b": "Email xác nhận",
@@ -996,7 +816,7 @@ const quizData = [
     "answer": "c"
   },
   {
-    "question": "7. Các hành động nào giúp bảo vệ mạng nội bộ cơ quan?",
+    "question": "Câu 85: Các hành động nào giúp bảo vệ mạng nội bộ cơ quan?",
     "options": {
       "a": "Cài phần mềm bảo mật đáng tin cậy",
       "b": "Cập nhật hệ thống thường xuyên",
@@ -1006,7 +826,7 @@ const quizData = [
     "answer": ["a", "b", "c", "d"]
   },
   {
-    "question": "8. Yếu tố nào quan trọng nhất trong đào tạo nhân lực an ninh mạng quân sự?",
+    "question": "Câu 86: Yếu tố nào quan trọng nhất trong đào tạo nhân lực an ninh mạng quân sự?",
     "options": {
       "a": "Kỹ năng phân tích mã độc",
       "b": "Tư duy phản biện",
@@ -1016,16 +836,16 @@ const quizData = [
     "answer": "c"
   },
   {
-    "question": "9. Trình tự giám sát an ninh mạng của lực lượng chuyên trách bảo vệ an ninh mạng?",
+    "question": "Câu 87: Trình tự giám sát an ninh mạng của lực lượng chuyên trách bảo vệ an ninh mạng?",
     "options": {
-      "a": "Gửi thông báo -> Triển khai giám sát -> Định kỳ thống kê, báo cáo",
-      "b": "Triển khai giám sát -> Định kỳ thống kê, báo cáo -> Gửi thông báo",
-      "c": "Định kỳ thống kê, báo cáo -> Gửi thông báo -> Triển khai giám sát"
+      "a": "Gửi thông báo bằng văn bản yêu cầu triển khai biện pháp giám sát an ninh mạng tới chủ quản hệ thống thông tin; trong văn bản nêu rõ lý do, thời gian, nội dung và phạm vi tiến hành giám sát an ninh mạng; Triển khai biện pháp giám sát an ninh mạng; Định kỳ thống kê, báo cáo kết quả giám sát",
+      "b": "Triển khai biện pháp giám sát an ninh mạng; Định kỳ thống kê, báo cáo kết quả giám sát; Gửi thông báo bằng văn bản yêu cầu triển khai biện pháp giám sát an ninh mạng tới chủ quản hệ thống thông tin; trong văn bản nêu rõ lý do, thời gian, nội dung và phạm vi tiến hành giám sát an ninh mạng",
+      "c": "Định kỳ thống kê, báo cáo kết quả giám sát; Gửi thông báo bằng văn bản yêu cầu triển khai biện pháp giám sát an ninh mạng tới chủ quản hệ thống thông tin; trong văn bản nêu rõ lý do, thời gian, nội dung và phạm vi tiến hành giám sát an ninh mạng; Triển khai biện pháp giám sát an ninh mạng"
     },
     "answer": "a"
   },
   {
-    "question": "10. AI có vai trò gì trong kiểm tra đầu vào sinh viên?",
+    "question": "Câu 88: AI có vai trò gì trong kiểm tra đầu vào sinh viên?",
     "options": {
       "a": "Dự đoán khả năng thành công",
       "b": "Phân tích bài kiểm tra",
@@ -1035,17 +855,7 @@ const quizData = [
     "answer": "c"
   },
   {
-    "question": "11. AI hỗ trợ giám sát mạng trong an toàn thông tin chủ yếu bằng cách nào?",
-    "options": {
-      "a": "Phát hiện và ngăn chặn các cuộc tấn công mạng như DDoS hoặc xâm nhập trái phép",
-      "b": "Tạo báo cáo thủ công về các sự cố bảo mật trong hệ thống mạng",
-      "c": "Dự đoán các sự cố phần cứng của thiết bị mạng",
-      "d": "Tự động cài đặt bản vá bảo mật trên hệ thống mạng"
-    },
-    "answer": "a"
-  },
-  {
-    "question": "12. AI có thể giúp gì trong ngành y tế?",
+    "question": "Câu 89: AI có thể giúp gì trong ngành y tế?",
     "options": {
       "a": "Chẩn đoán bệnh",
       "b": "Đo huyết áp bằng tay",
@@ -1055,17 +865,7 @@ const quizData = [
     "answer": "a"
   },
   {
-    "question": "15. Mức pin lý tưởng khi không sử dụng thiết bị lâu dài là bao nhiêu?",
-    "options": {
-      "a": "0",
-      "b": "10-20%",
-      "c": "40-60%",
-      "d": "100%"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "16. Quy trình nào giúp tăng hiệu quả làm việc nhóm trên môi trường số?",
+    "question": "Câu 90: Quy trình nào giúp tăng hiệu quả làm việc nhóm trên môi trường số?",
     "options": {
       "a": "Chia sẻ lịch làm việc",
       "b": "Giao nhiệm vụ rõ ràng",
@@ -1075,17 +875,7 @@ const quizData = [
     "answer": "d"
   },
   {
-    "question": "19. Khoảng cách năng lực số là gì?",
-    "options": {
-      "a": "Khác biệt giữa người sử dụng tốt công nghệ số và người không có điều kiện tiếp cận",
-      "b": "Sự chênh lệch thu nhập giữa người làm CNTT và người lao động phổ thông",
-      "c": "Khác biệt giữa người già và người trẻ",
-      "d": "Khoảng cách về mức sống giữa nông thôn và thành thị"
-    },
-    "answer": "a"
-  },
-  {
-    "question": "20. Tác dụng của xác thực hai lớp là gì?",
+    "question": "Câu 91: Tác dụng của xác thực hai lớp là gì?",
     "options": {
       "a": "Tăng tính bảo mật cho tài khoản",
       "b": "Đăng nhập tự động",
@@ -1095,7 +885,7 @@ const quizData = [
     "answer": "a"
   },
   {
-    "question": "21. Theo quy định về an toàn thông tin mạng, hành vi nào sau đây là vi phạm?",
+    "question": "Câu 92: Theo quy định về an toàn thông tin mạng, hành vi nào sau đây là vi phạm?",
     "options": {
       "a": "Không đổi mật khẩu mặc định thiết bị truy cập",
       "b": "Cài phần mềm không rõ nguồn gốc",
@@ -1105,7 +895,7 @@ const quizData = [
     "answer": "d"
   },
   {
-    "question": "22. Tại sao nên thường xuyên cập nhật phần mềm?",
+    "question": "Câu 93: Tại sao nên thường xuyên cập nhật phần mềm?",
     "options": {
       "a": "Khắc phục lỗi bảo mật",
       "b": "Bổ sung tính năng mới",
@@ -1115,7 +905,7 @@ const quizData = [
     "answer": "c"
   },
   {
-    "question": "23. Điểm khác biệt giữa tài khoản định danh điện tử với tài khoản mạng xã hội là:",
+    "question": "Câu 94: Điểm khác biệt giữa tài khoản định danh điện tử với tài khoản mạng xã hội là:",
     "options": {
       "a": "Có giá trị pháp lý và được luật pháp bảo vệ",
       "b": "Dùng để giao lưu kết bạn",
@@ -1125,7 +915,7 @@ const quizData = [
     "answer": "a"
   },
   {
-    "question": "24. Khi nhận được thông báo có phần mềm độc hại từ trình duyệt, bạn nên:",
+    "question": "Câu 95: Khi nhận được thông báo có phần mềm độc hại từ trình duyệt, bạn nên:",
     "options": {
       "a": "Bỏ qua thông báo và tiếp tục",
       "b": "Tắt máy tính ngay",
@@ -1135,7 +925,7 @@ const quizData = [
     "answer": "c"
   },
   {
-    "question": "25. Để bảo đảm an ninh mạng khi làm việc từ xa, việc nào sau đây cần thực hiện?",
+    "question": "Câu 96: Để bảo đảm an ninh mạng khi làm việc từ xa, việc nào sau đây cần thực hiện?",
     "options": {
       "a": "Không sử dụng thiết bị cá nhân để truy cập dữ liệu nội bộ",
       "b": "Sử dụng VPN",
@@ -1145,17 +935,7 @@ const quizData = [
     "answer": "d"
   },
   {
-    "question": "27. Vì sao thông tin cần có nguồn gốc và thẩm quyền rõ ràng?",
-    "options": {
-      "a": "Để xác minh tính đáng tin cậy của tác giả hoặc tổ chức",
-      "b": "Để rút ngắn nội dung",
-      "c": "Để dễ chia sẻ lên mạng xã hội",
-      "d": "Để tránh bị đạo văn"
-    },
-    "answer": "a"
-  },
-  {
-    "question": "28. Một giải pháp phổ biến để bảo vệ tài khoản cá nhân là gì?",
+    "question": "Câu 97: Một giải pháp phổ biến để bảo vệ tài khoản cá nhân là gì?",
     "options": {
       "a": "Đặt mật khẩu mạnh và khác nhau cho các tài khoản",
       "b": "Chia sẻ tài khoản cho bạn bè, gia đình",
@@ -1165,17 +945,7 @@ const quizData = [
     "answer": "a"
   },
   {
-    "question": "29. Trình quản lý mật khẩu có tác dụng gì?",
-    "options": {
-      "a": "Hiển thị mật khẩu dưới dạng công khai",
-      "b": "Lưu trữ và tự động điền mật khẩu an toàn",
-      "c": "Đặt mật khẩu giống nhau cho mọi tài khoản",
-      "d": "Tự động thay đổi mật khẩu mỗi tuần"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "30. Sau khi triển khai giải pháp xử lý sự cố, việc kiểm tra lại hệ thống có mục đích gì?",
+    "question": "Câu 98: Sau khi triển khai giải pháp xử lý sự cố, việc kiểm tra lại hệ thống có mục đích gì?",
     "options": {
       "a": "Để viết báo cáo sự cố",
       "b": "Đảm bảo sự cố đã được xử lý triệt để và hệ thống hoạt động bình thường",
@@ -1185,914 +955,1112 @@ const quizData = [
     "answer": "b"
   },
   {
-    "question": "1. Tài khoản định danh mức 2 dùng để làm gì?",
+    "question": "Câu 99: Theo Quyết định số 749/QĐ-TTg ngày 03/6/2020 của Thủ tướng Chính phủ, đến năm 2030, trong Chương trình chuyển đổi số Quốc gia đến năm 2025, định hướng đến năm 2030, đặt ra mục tiêu tỷ lệ dân số có tài khoản thanh toán điện tử là bao nhiêu?",
     "options": {
-      "a": "Ký số",
-      "b": "Tất cả phương án trên",
-      "c": "Nộp thuế",
-      "d": "Xác minh giao dịch"
+      "a": "Trên 60%",
+      "b": "Trên 70%",
+      "c": "Trên 80%",
+      "d": "Trên 90%"
     },
-    "answer": "b"
+    "answer": "c"
   },
   {
-    "question": "2. Chuyển đổi số có ảnh hưởng gì đến lao động?",
+    "question": "Câu 100: VNeID giúp người dân kiểm tra được gì?",
     "options": {
-      "a": "Thay đổi mô tả công việc",
-      "b": "Tạo cơ hội việc làm mới",
-      "c": "Cần kỹ năng mới",
-      "d": "Tất cả các phương án trên"
-    },
-    "answer": "d"
-  },
-  {
-    "question": "3. Chuyển đổi số trong chính phủ điện tử bao gồm những yếu tố nào?",
-    "options": {
-      "a": "Hệ thống giấy tờ thủ công",
-      "b": "Dữ liệu mở",
-      "c": "Hệ thống tương tác công dân",
-      "d": "Cổng dịch vụ công trực tuyến"
-    },
-    "answer": ["b", "c", "d"]
-  },
-  {
-    "question": "4. Theo Nghị định 42, ứng dụng công nghệ số được yêu cầu triển khai ở những lĩnh vực nào?",
-    "options": {
-      "a": "Y tế, giáo dục, giao thông, nông nghiệp",
-      "b": "Du lịch, thể thao, văn hóa",
-      "c": "Giải trí, ẩm thực, thời trang",
-      "d": "Công nghiệp ô tô"
+      "a": "Lịch sử tiêm chủng",
+      "b": "Hóa đơn điện nước",
+      "c": "Mức lương trung bình",
+      "d": "Thành tích học tập"
     },
     "answer": "a"
   },
   {
-    "question": "5. Thông tin trong VNeID do ai quản lý?",
+    "question": "Câu 101: Khi truy cập internet công cộng cần lưu ý điều gì?",
     "options": {
-      "a": "Doanh nghiệp viễn thông",
-      "b": "Sở Thông tin",
-      "c": "Ngân hàng Nhà nước",
-      "d": "Bộ Công an"
+      "a": "Không nhập mật khẩu cá nhân",
+      "b": "Không đăng nhập tài khoản ngân hàng",
+      "c": "Không cập nhật phần mềm từ mạng công cộng",
+      "d": "Không tải file lạ"
+    },
+    "answer": ["a", "b", "c", "d"]
+  },
+  {
+    "question": "Câu 102: Lực lượng nào chịu trách nhiệm chính về bảo vệ an ninh mạng trong Quân đội nhân dân Việt Nam?",
+    "options": {
+      "a": "Bộ Tổng Tham mưu",
+      "b": "Tổng cục 2",
+      "c": "Tổng cục Kỹ thuật",
+      "d": "Bộ Tư lệnh 86"
     },
     "answer": "d"
   },
   {
-    "question": "6. Ứng dụng ví điện tử thường được sử dụng để làm gì?",
+    "question": "Câu 103: Đâu là hình thức tấn công mạng phổ biến trong quốc phòng?",
     "options": {
-      "a": "Mua vé xem phim",
-      "b": "Xem YouTube không quảng cáo",
-      "c": "Nạp tiền điện thoại",
+      "a": "Tất cả đều đúng",
+      "b": "Đánh lừa qua mạng xã hội",
+      "c": "Phishing email",
+      "d": "Cài mã độc từ USB"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Câu 104: AI giúp ích gì trong quản lý lớp học thông minh?",
+    "options": {
+      "a": "Tự động điểm danh",
+      "b": "Tất cả các phương án trên",
+      "c": "Gợi ý phương pháp giảng dạy phù hợp",
+      "d": "Theo dõi hành vi học sinh"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Câu 105: AI có giúp ích gì trong học tập?",
+    "options": {
+      "a": "Cả 3 đáp án",
+      "b": "Chấm điểm tự động",
+      "c": "Phân tích hành vi học",
+      "d": "Tạo đề thi"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Câu 106: Trên Android, thao tác tắt máy đúng là như thế nào?",
+    "options": {
+      "a": "Nhấn giữ nút nguồn, chọn 'Power off', rồi xác nhận",
+      "b": "Nhấn nút giảm âm lượng và camera",
+      "c": "Mở cài đặt và chọn “Tắt nguồn”",
+      "d": "Gỡ pin ra khỏi máy"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Câu 107: Thao tác nào thường dùng để mở ứng dụng hoặc chọn mục trên thiết bị cảm ứng?",
+    "options": {
+      "a": "Giữ nút nguồn trong vài giây",
+      "b": "Kéo ngón tay theo chiều ngang",
+      "c": "Nhấn đôi vào biểu tượng",
+      "d": "Chạm nhẹ vào màn hình"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Câu 108: Một trong những tác động tiêu cực của khoảng cách năng lực số là gì?",
+    "options": {
+      "a": "Tăng năng lực cạnh tranh của doanh nghiệp nội địa",
+      "b": "Làm giảm nhu cầu sử dụng mạng xã hội",
+      "c": "Hạn chế cơ hội tiếp cận thông tin và việc làm",
+      "d": "Tạo điều kiện phát triển vùng sâu vùng xa"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Câu 109: Nhóm tiện ích nào không thuộc Đề án 06?",
+    "options": {
+      "a": "Phục vụ TTHC và dịch vụ công trực tuyến",
+      "b": "Phục vụ công dân số",
+      "c": "Phục vụ kinh doanh, giải trí",
+      "d": "Phục vụ phát triển KT-XH"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Câu 110: Yếu tố nào là then chốt để chuyển đổi số thành công?",
+    "options": {
+      "a": "Thay đổi tư duy, văn hóa tổ chức",
+      "b": "Ý chí chính trị",
+      "c": "Nguồn lực tài chính",
+      "d": "Hạ tầng công nghệ"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Câu 111: Theo Nghị định 42, đơn vị nào giữ vai trò điều phối chuyển đổi số quốc gia?",
+    "options": {
+      "a": "Bộ Quốc phòng",
+      "b": "Bộ Công an",
+      "c": "Bộ Giao thông Vận tải",
+      "d": "Bộ Thông tin và Truyền thông"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Câu 112: Ứng dụng ngân hàng số giúp người dùng thực hiện giao dịch nào sau đây?",
+    "options": {
+      "a": "Gửi tiết kiệm online",
+      "b": "Rút tiền tại ATM bằng QR code",
+      "c": "Chuyển tiền",
       "d": "Thanh toán hóa đơn"
     },
-    "answer": ["a", "c", "d"]
-  },
-  {
-    "question": "7. Đâu là điểm yếu thường bị tấn công trong hệ thống quân sự?",
-    "options": {
-      "a": "Tất cả đều đúng",
-      "b": "Nhân sự chưa được đào tạo",
-      "c": "Phần mềm không cập nhật",
-      "d": "Thiết bị cũ"
-    },
-    "answer": "a"
-  },
-  {
-    "question": "8. Tác hại khi lộ thông tin tài khoản mạng xã hội?",
-    "options": {
-      "a": "Bị mất quyền kiểm soát tài khoản",
-      "b": "Bị lợi dụng lừa đảo",
-      "c": "Bị giả mạo",
-      "d": "Bị đánh cắp danh tính"
-    },
     "answer": ["a", "b", "c", "d"]
   },
   {
-    "question": "9. Đâu là trách nhiệm của cá nhân trong việc quản lý và sử dụng tài khoản?",
+    "question": "Câu 113: Yếu tố nào thúc đẩy chuyển đổi số trong kinh tế?",
     "options": {
-      "a": "Khi bị lộ mật khẩu, hoặc nghi ngờ mật khẩu bị lộ phải đổi ngay mật khẩu, trong trường hợp không thể tự đổi phải làm thủ tục reset mật khẩu",
-      "b": "Thiết lập chính sách mật khẩu mạnh cho các tài khoản được cấp theo đúng quy định",
-      "c": "Phải cam kết sử dụng tài khoản đúng mục đích công việc, không được lạm dụng quyền được cấp vào các mục đích cá nhân",
-      "d": "Sử dụng các ứng dụng CNTT trong công tác rà soát, giám sát việc sử dụng tài khoản đúng mục đích"
-    },
-    "answer": ["a", "b", "c"]
-  },
-  {
-    "question": "10. AI có thể nhận diện cảm xúc học sinh qua gì?",
-    "options": {
-      "a": "Giọng nói",
-      "b": "Tất cả đúng",
-      "c": "Hành vi",
-      "d": "Khuôn mặt"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "11. Trong giáo dục, AI có thể hỗ trợ giáo viên bằng cách nào?",
-    "options": {
-      "a": "Gợi ý cải tiến phương pháp giảng dạy",
-      "b": "Tất cả đều đúng",
-      "c": "Chấm điểm bài kiểm tra",
-      "d": "Tổng hợp báo cáo học tập"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "12. AI có thể làm gì trong ngành luật?",
-    "options": {
-      "a": "Tìm văn bản pháp luật",
-      "b": "Tư vấn pháp lý cơ bản",
-      "c": "Phân tích hợp đồng",
-      "d": "Tất cả các ý trên"
-    },
-    "answer": "d"
-  },
-  {
-    "question": "13. Ethernet là gì?",
-    "options": {
-      "a": "Phương thức kết nối mạng có dây dùng cáp RJ45",
-      "b": "Ứng dụng giúp tăng sóng mạng",
-      "c": "Bộ chuyển đổi tín hiệu Bluetooth",
-      "d": "Một dạng Wi-Fi công suất cao"
-    },
-    "answer": "a"
-  },
-  {
-    "question": "16. Tại sao cần xác minh nguồn và tác giả thông tin?",
-    "options": {
-      "a": "Để đảm bảo tác giả là người có chuyên môn và đáng tin cậy",
-      "b": "Để biết người viết có thường xuyên đăng không",
-      "c": "Để biết người viết có nhiều người theo dõi không",
-      "d": "Để biết nguồn có nổi tiếng không"
-    },
-    "answer": "a"
-  },
-  {
-    "question": "17. Vì sao cần xác minh và kiểm chứng thông tin trong thời đại số?",
-    "options": {
-      "a": "Để tạo ra thêm dữ liệu",
-      "b": "Để tránh dùng AI quá nhiều",
-      "c": "Để loại bỏ tin giả, nâng cao độ tin cậy và hỗ trợ ra quyết định đúng đắn",
-      "d": "Để cập nhật xu hướng công nghệ"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "21. Hành vi nào sau đây thuộc quy tắc lành mạnh trên mạng xã hội?",
-    "options": {
-      "a": "Ứng xử văn minh, phù hợp giá trị đạo đức và truyền thống dân tộc",
-      "b": "Chia sẻ nội dung kích động, phản cảm",
-      "c": "Tạo tài khoản ẩn danh để tránh trách nhiệm pháp lý",
-      "d": "Đăng tải tin giả để thu hút tương tác"
-    },
-    "answer": "a"
-  },
-  {
-    "question": "22. Vì sao nên tinh chỉnh lại slide sau khi Gamma thiết kế tự động?",
-    "options": {
-      "a": "Để thay đổi chủ đề của bài thuyết trình",
-      "b": "Để xóa phần tóm tắt của Gamma",
-      "c": "Để phù hợp với văn hóa tổ chức và nhận diện thương hiệu",
-      "d": "Để thêm nội dung mới"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "26. Việc tắt thiết bị và wifi khi không sử dụng có lợi ích chính là gì?",
-    "options": {
-      "a": "Kéo dài tuổi thọ phần mềm",
-      "b": "Giảm nhiễu sóng điện từ",
-      "c": "Tiết kiệm năng lượng và giảm phát thải khí nhà kính",
-      "d": "Giúp tăng tốc độ mạng"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "27. Việc dùng thiết bị điện tử sai tư thế lâu dài có thể gây ảnh hưởng gì đến cơ thể?",
-    "options": {
-      "a": "Cải thiện tuần hoàn máu",
-      "b": "Rối loạn cơ xương khớp như đau cổ, vai, gáy",
-      "c": "Làm chắc xương hơn",
-      "d": "Tăng trí nhớ"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "29. Tại sao cần dừng hoạt động thiết bị khi phát hiện sự cố nghiêm trọng?",
-    "options": {
-      "a": "Để đảm bảo an toàn cho người và tài sản",
-      "b": "Để chờ chuyên gia đến xử lý",
-      "c": "Để không làm ảnh hưởng đến năng suất thiết bị",
-      "d": "Để thiết bị nghỉ ngơi"
-    },
-    "answer": "a"
-  },
-  {
-    "question": "1. Theo quy định của Luật Cư trú, Sổ hộ khẩu, Sổ tạm trú đã được cấp vẫn được sử dụng và có giá trị như giấy tờ, tài liệu xác nhận về cư trú cho đến thời điểm nào sau đây?",
-    "options": {
-      "a": "Đến ngày 01/07/2022.",
-      "b": "Đến hết ngày 31/12/2022.",
-      "c": "Đến hết ngày 01/7/2023.",
-      "d": "Đến hết ngày 31/12/2023."
-    },
-    "answer": "b"
-  },
-  {
-    "question": "2. Lợi ích chính của chuyển đổi số trong quản lý tài chính công là gì?",
-    "options": {
-      "a": "Giảm thất thoát ngân sách",
-      "b": "Tự động hóa báo cáo",
-      "c": "Gian lận dễ hơn",
-      "d": "Tăng tính minh bạch"
-    },
-    "answer": ["a", "b", "d"]
-  },
-  {
-    "question": "3. Theo Quyết định số 749/QĐ-TTg ngày 03/6/2020 của Thủ tướng Chính phủ, đến năm 2030 trong Chương trình chuyển đổi số Quốc gia đến năm 2025, định hướng đến năm 2030, đặt ra mục tiêu Việt Nam thuộc nhóm bao nhiêu nước dẫn đầu về an toàn, an ninh mạng (GCI)?",
-    "options": {
-      "a": "40",
-      "b": "35",
-      "c": "45",
-      "d": "30"
-    },
-    "answer": "d"
-  },
-  {
-    "question": "4. Lợi ích của lớp học thông minh là gì?",
-    "options": {
-      "a": "Tiết kiệm thời gian",
-      "b": "Học tập cá nhân hóa",
-      "c": "Tất cả các đáp án trên",
-      "d": "Tăng cường tương tác"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "5. Sau khi tải ứng dụng VNeID về điện thoại, để đăng ký sử dụng tài khoản định danh điện tử, cần có giấy tờ gì?",
-    "options": {
-      "a": "Không cần giấy tờ gì.",
-      "b": "Thẻ Căn cước công dân gắn chip.",
-      "c": "Thẻ Căn cước công dân mã vạch hoặc gắn chip.",
-      "d": "CMND 9 số."
-    },
-    "answer": "b"
-  },
-  {
-    "question": "6. Công nghệ nào giúp học sinh học lập trình từ sớm theo cách trực quan?",
-    "options": {
-      "a": "Java",
-      "b": "Pascal",
-      "c": "Python nâng cao",
-      "d": "Scratch"
-    },
-    "answer": "d"
-  },
-  {
-    "question": "7. Bảo mật cấp quân sự yêu cầu gì trong truyền dữ liệu?",
-    "options": {
-      "a": "Thiết bị chuyên dụng",
-      "b": "Không truyền qua mạng công cộng",
-      "c": "Mã hóa đầu-cuối",
-      "d": "Tất cả các đáp án trên"
-    },
-    "answer": "d"
-  },
-  {
-    "question": "8. Làm gì khi bị lộ mật khẩu email?",
-    "options": {
-      "a": "Đổi mật khẩu ngay",
-      "b": "Báo cáo nhà cung cấp",
-      "c": "Kích hoạt xác thực hai lớp nếu chưa bật",
-      "d": "Tắt các thiết bị đã đăng nhập"
-    },
-    "answer": ["a", "b", "c", "d"]
-  },
-  {
-    "question": "9. Tấn công phishing thường diễn ra dưới những hình thức nào?",
-    "options": {
-      "a": "Tin nhắn SMS lừa đảo",
-      "b": "Website giả mạo",
-      "c": "Giả danh người thân trên mạng xã hội",
-      "d": "Email giả mạo"
-    },
-    "answer": ["a", "b", "c", "d"]
-  },
-  {
-    "question": "12. Khi tài khoản bị khóa, bạn có thể mở lại bằng cách nào?",
-    "options": {
-      "a": "Liên hệ qua tổng đài",
-      "b": "Làm lại hồ sơ định danh theo quy định",
-      "c": "Đến cơ quan công an yêu cầu mở",
-      "d": "Tất cả các đáp án trên"
-    },
-    "answer": "d"
-  },
-  {
-    "question": "13. CPU trong thiết bị thông minh có vai trò gì?",
-    "options": {
-      "a": "Điều phối toàn bộ hoạt động của thiết bị",
-      "b": "Lưu trữ dữ liệu",
-      "c": "Quản lý cảm biến",
-      "d": "Xử lý hình ảnh"
-    },
-    "answer": "a"
-  },
-  {
-    "question": "14. Mã hóa dữ liệu giúp làm gì?",
-    "options": {
-      "a": "Tăng tốc độ truyền tải",
-      "b": "Bảo vệ thông tin khỏi truy cập trái phép",
-      "c": "Giảm dung lượng lưu trữ",
-      "d": "Dễ khôi phục dữ liệu nếu bị mất"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "15. Yếu tố nào quyết định việc lựa chọn phần mềm quản lý doanh nghiệp?",
-    "options": {
-      "a": "Khả năng mở rộng",
-      "b": "Giá thành",
-      "c": "Giao diện dễ sử dụng",
-      "d": "Có nhiều tính năng"
-    },
-    "answer": "a"
-  },
-  {
-    "question": "16. Phân loại quyền truy cập dữ liệu quân sự nhằm mục đích gì?",
-    "options": {
-      "a": "Đảm bảo mức độ bảo mật",
-      "b": "Tối ưu bộ nhớ",
-      "c": "Tiết kiệm chi phí",
-      "d": "Dễ quản lý thiết bị"
-    },
-    "answer": "a"
-  },
-  {
-    "question": "17. Dấu hiệu nào thường gặp của email lừa đảo?",
-    "options": {
-      "a": "Đính kèm file lạ",
-      "b": "Đường link lạ",
-      "c": "Người gửi không rõ ràng",
-      "d": "Nội dung cấp bách, khẩn cấp"
-    },
-    "answer": ["a", "b", "c", "d"]
-  },
-  {
-    "question": "18. Ứng dụng công nghệ số nào phổ biến trong lĩnh vực y tế hiện nay?",
-    "options": {
-      "a": "Quản lý hồ sơ sức khỏe điện tử",
-      "b": "Đặt lịch khám, tư vấn từ xa",
-      "c": "Cảnh báo dịch bệnh qua ứng dụng",
-      "d": "Tất cả các đáp án trên"
-    },
-    "answer": "d"
-  },
-  {
-    "question": "19. Lợi ích chính của việc khai báo trực tuyến là gì?",
-    "options": {
-      "a": "Giảm thủ tục",
-      "b": "Tiết kiệm thời gian",
-      "c": "Tăng số lượng người dùng Internet",
-      "d": "Hạn chế giao tiếp xã hội"
-    },
-    "answer": ["a", "b"]
-  },
-  {
-    "question": "21. Một giải pháp giúp tăng bảo mật tài khoản trực tuyến là gì?",
-    "options": {
-      "a": "Đặt mật khẩu mạnh",
-      "b": "Thiết lập xác thực hai lớp",
-      "c": "Không chia sẻ thông tin đăng nhập",
-      "d": "Tất cả các đáp án trên"
-    },
-    "answer": "d"
-  },
-  {
-    "question": "22. Khi nghi ngờ bị lộ dữ liệu cá nhân, bạn nên làm gì?",
-    "options": {
-      "a": "Thay đổi mật khẩu",
-      "b": "Báo cáo quản trị viên",
-      "c": "Tắt thiết bị",
-      "d": "Xóa tài khoản"
-    },
-    "answer": ["a", "b"]
-  },
-  {
-    "question": "23. Tại sao không nên sử dụng Wi-Fi công cộng không bảo mật?",
-    "options": {
-      "a": "Dễ bị tấn công giả mạo (fake AP)",
-      "b": "Không có mã hóa dữ liệu truyền",
-      "c": "Tin tặc có thể chặn thông tin truyền",
-      "d": "Dễ bị nghe lén dữ liệu"
-    },
-    "answer": ["a", "b", "c", "d"]
-  },
-  {
-    "question": "1. Hệ thống nào giúp kết nối, chia sẻ dữ liệu giữa các cơ quan nhà nước?",
-    "options": {
-      "a": "Hệ thống dữ liệu dùng chung",
-      "b": "Trung tâm dữ liệu quốc gia",
-      "c": "Nền tảng tích hợp chia sẻ dữ liệu (NDXP)",
-      "d": "Trục liên thông quốc gia"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "2. Mở khóa tài khoản định danh điện tử của công dân khi nào?",
-    "options": {
-      "a": "Hệ thống định danh và xác thực điện tử tự động mở khóa ngay tài khoản khi các căn cứ khóa tự động đã hết",
-      "b": "Khi công dân có yêu cầu",
-      "c": "Cơ quan tiến hành tố tụng, cơ quan chức năng có thẩm quyền có yêu cầu"
-    },
-    "answer": ["a", "c"]
-  },
-  {
-    "question": "3. Giấy tờ nào cần mang khi đăng ký tài khoản?",
-    "options": {
-      "a": "Giấy khai sinh",
-      "b": "CCCD gắn chip",
-      "c": "CMND",
-      "d": "Sổ hộ khẩu"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "4. Nghị định 57 tạo điều kiện doanh nghiệp đầu tư công nghệ số vào nông thôn thông qua hình thức nào?",
-    "options": {
-      "a": "Hỗ trợ hạ tầng công nghệ",
-      "b": "Ưu đãi thuế",
-      "c": "Ưu đãi tín dụng",
-      "d": "Tất cả các đáp án trên"
-    },
-    "answer": "d"
-  },
-  {
-    "question": "5. Chức năng chính của ứng dụng chăm sóc sức khỏe số là gì?",
-    "options": {
-      "a": "Theo dõi lịch tiêm chủng",
-      "b": "Đặt lịch khám bệnh",
-      "c": "Tư vấn sức khỏe từ xa"
-    },
-    "answer": ["a", "b", "c"]
-  },
-  {
-    "question": "6. Đâu là lợi ích của việc học trên nền tảng học trực tuyến (LMS)?",
-    "options": {
-      "a": "Học mọi lúc mọi nơi",
-      "b": "Tất cả các đáp án trên",
-      "c": "Quản lý tiến độ học tập",
-      "d": "Tiết kiệm chi phí"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "7. Hệ thống mạng quân sự cần được xây dựng như thế nào để đảm bảo an toàn?",
-    "options": {
-      "a": "Tất cả đều đúng",
-      "b": "Cách ly với Internet",
-      "c": "Phân quyền truy cập chặt chẽ",
-      "d": "Mã hóa thông tin"
-    },
-    "answer": "a"
-  },
-  {
-    "question": "9. Nguy cơ nào đến từ việc dùng phần mềm bẻ khóa?",
-    "options": {
-      "a": "Dễ bị gài mã độc",
-      "b": "Có thể bị tấn công qua backdoor",
-      "c": "Vi phạm bản quyền",
-      "d": "Mất dữ liệu cá nhân"
-    },
-    "answer": ["a", "b", "c", "d"]
-  },
-  {
-    "question": "10. AI có thể phát hiện học sinh gặp khó khăn học tập qua đâu?",
-    "options": {
-      "a": "Tất cả đúng",
-      "b": "Kết quả học tập",
-      "c": "Mức độ tương tác",
-      "d": "Thái độ học tập"
-    },
-    "answer": "a"
-  },
-  {
-    "question": "11. AI có thể hỗ trợ như thế nào trong việc kê đơn thuốc?",
-    "options": {
-      "a": "Đề xuất thuốc phù hợp",
-      "b": "Tất cả đều đúng",
-      "c": "Tự động kê đơn",
-      "d": "Kiểm tra tương tác thuốc"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "12. Trong thương mại điện tử, AI giúp gì?",
-    "options": {
-      "a": "Đóng gói hàng hóa",
-      "b": "Giao hàng tận nơi",
-      "c": "Gợi ý sản phẩm",
-      "d": "Tăng thuế"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "13. Điều chỉnh độ sáng màn hình hợp lý giúp ích điều gì?",
-    "options": {
-      "a": "Làm màn hình sáng đẹp hơn",
-      "b": "Bảo vệ mắt và tiết kiệm pin",
-      "c": "Giúp thiết bị tải nhanh hơn",
-      "d": "Tăng khả năng chống nước của thiết bị"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "14. Mạng di động 3G, 4G, 5G có đặc điểm gì nổi bật?",
-    "options": {
-      "a": "Luôn nhanh hơn Wi-Fi",
-      "b": "Chỉ dùng được khi có Wi-Fi",
-      "c": "Chỉ áp dụng cho máy tính bàn",
-      "d": "Cho phép truy cập Internet mọi nơi có sóng điện thoại"
-    },
-    "answer": "d"
-  },
-  {
-    "question": "15. Ưu điểm nổi bật của SSD so với HDD là gì?",
-    "options": {
-      "a": "Giá rẻ hơn",
-      "b": "Dung lượng lớn hơn",
-      "c": "Tốc độ truy xuất nhanh hơn",
-      "d": "Có thể bị nhiễm từ"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "16. Một điểm yếu của phương pháp kiểm chứng truyền thống là gì?",
-    "options": {
-      "a": "Không có công cụ trích dẫn",
-      "b": "Không sử dụng được trong nghiên cứu",
-      "c": "Tốn nhiều thời gian và công sức khi dữ liệu quá lớn",
-      "d": "Phải có kết nối Internet"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "18. Một trong những thủ đoạn lừa đảo phổ biến là gì?",
-    "options": {
-      "a": "Cấp giấy chứng nhận không giá trị",
-      "b": "Giả danh sĩ quan quân đội để đặt hàng số lượng lớn",
-      "c": "Gửi thư mời từ các cơ quan nhà nước",
-      "d": "Tổ chức hội thảo công khai"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "19. Thông tin nào đồng chí không nắm quyền kiểm soát trên mạng xã hội?",
-    "options": {
-      "a": "Họ tên, số điện thoại",
-      "b": "Bình luận, đánh giá từ người khác về nội dung đồng chí chia sẻ",
-      "c": "Cài đặt hiển thị trên tài khoản",
-      "d": "Hình ảnh cá nhân đồng chí tự đăng"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "21. “Danh tính số” là gì?",
-    "options": {
-      "a": "Hình ảnh đại diện của cá nhân trên Internet, được hình thành qua hành vi, thông tin và tương tác",
-      "b": "Tài khoản đăng nhập mạng xã hội",
-      "c": "Chữ ký số cá nhân trong các văn bản điện tử",
-      "d": "Mã số định danh cá nhân trên CCCD"
-    },
-    "answer": "a"
-  },
-  {
-    "question": "26. Yếu tố nào sau đây KHÔNG nên xuất hiện trong mật khẩu?",
-    "options": {
-      "a": "Chữ hoa và ký tự đặc biệt",
-      "b": "Số và chữ thường",
-      "c": "Ngày sinh hoặc số điện thoại cá nhân",
-      "d": "Ký tự đặc biệt và độ dài đủ"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "1. Tài khoản định danh điện tử được kích hoạt thế nào?",
-    "options": {
-      "a": "Tại công an cấp xã",
-      "b": "Tự động từ CCCD",
-      "c": "Qua ứng dụng VNeID",
-      "d": "Qua SMS"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "2. Các trở ngại chính trong chuyển đổi số tài chính là gì?",
-    "options": {
-      "a": "Chi phí đầu tư cao",
-      "b": "Được hỗ trợ nhiều ngân sách",
-      "c": "Thiếu nhân lực",
-      "d": "Ngại thay đổi quy trình"
-    },
-    "answer": ["a", "c", "d"]
-  },
-  {
-    "question": "3. Điều kiện cài đặt VNeID là gì?",
-    "options": {
-      "a": "SIM chính chủ",
-      "b": "Điện thoại thông minh",
-      "c": "Cả hai",
-      "d": "Không cần gì"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "4. Thiết bị nào sau đây thường được dùng trong huấn luyện mô phỏng bắn súng?",
-    "options": {
-      "a": "Kính thực tế ảo (VR)",
-      "b": "Máy chiếu",
-      "c": "Mô hình 3D",
-      "d": "Mô hình giấy"
-    },
-    "answer": "a"
-  },
-  {
-    "question": "6. Điều kiện cài ứng dụng VNeID?",
-    "options": {
-      "a": "Chỉ hỗ trợ iOS.",
-      "b": "Chỉ cần có điện thoại.",
-      "c": "Chỉ hỗ trợ Android.",
-      "d": "Smartphone có kết nối mạng, Android ≥5.0, iOS ≥13."
-    },
-    "answer": "d"
-  },
-  {
-    "question": "7. Mạng botnet thường được dùng để làm gì?",
-    "options": {
-      "a": "Phát tán mã độc",
-      "b": "Đào tiền ảo trái phép",
-      "c": "Gửi spam",
-      "d": "Tấn công DDoS"
-    },
-    "answer": ["a", "b", "c", "d"]
-  },
-  {
-    "question": "9. Yêu cầu đối với mật khẩu mạnh là?",
-    "options": {
-      "a": "Độ dài tối thiểu là 6 ký tự",
-      "b": "Mật khẩu bao gồm chữ, số, ký tự đặc biệt",
-      "c": "Mật khẩu bao gồm chữ hoa, chữ thường, số",
-      "d": "Độ dài tối thiểu là 8 ký tự"
+      "a": "Giá thành thiết bị tăng",
+      "b": "Chính sách hỗ trợ",
+      "c": "Hạ tầng số",
+      "d": "Ý thức doanh nghiệp"
     },
     "answer": ["b", "c", "d"]
   },
   {
-    "question": "10. AI hỗ trợ gì trong lĩnh vực nghiên cứu y học?",
+    "question": "Câu 114: Mục tiêu của chuyển đổi số trong doanh nghiệp là gì?",
     "options": {
-      "a": "Phát hiện mẫu bệnh lý",
-      "b": "Phân tích dữ liệu lâm sàng",
-      "c": "Hỗ trợ phát triển thuốc mới",
+      "a": "Tăng hiệu quả vận hành",
+      "b": "Tất cả các phương án trên",
+      "c": "Tối ưu chi phí",
+      "d": "Cải thiện trải nghiệm khách hàng"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Câu 115: Tài chính thông minh (Smart Finance) sử dụng công nghệ nào?",
+    "options": {
+      "a": "Cloud",
+      "b": "Thẻ từ truyền thống",
+      "c": "AI",
+      "d": "Big Data"
+    },
+    "answer": ["a", "c", "d"]
+  },
+  {
+    "question": "Câu 116: Mô hình lớp học đảo ngược (Flipped Classroom) sử dụng công nghệ như thế nào?",
+    "options": {
+      "a": "Lớp học online 100%",
+      "b": "Chỉ dùng trong đại học",
+      "c": "Giáo viên dạy học sinh qua mạng",
+      "d": "Học sinh học trước ở nhà qua video"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Câu 117: Tại sao không nên cài ứng dụng không rõ nguồn gốc?",
+    "options": {
+      "a": "Gây hao pin thiết bị",
+      "b": "Có thể chiếm quyền điều khiển thiết bị",
+      "c": "Có thể chứa mã độc",
+      "d": "Có thể đánh cắp thông tin"
+    },
+    "answer": ["b", "c", "d"]
+  },
+  {
+    "question": "Câu 118: AI có thể giúp quản lý hồ sơ bệnh án như thế nào?",
+    "options": {
+      "a": "Tìm kiếm nhanh",
+      "b": "Tất cả đúng",
+      "c": "Gợi ý dữ liệu liên quan",
+      "d": "Tự động lưu trữ"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Câu 119: Mục tiêu chính của AI là gì?",
+    "options": {
+      "a": "Tự động hóa công việc",
+      "b": "Điều khiển máy móc",
+      "c": "Mô phỏng trí tuệ con người",
+      "d": "Tạo ra phần mềm"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Câu 120: AI hỗ trợ đánh giá năng lực học sinh bằng cách nào?",
+    "options": {
+      "a": "So sánh dữ liệu nhóm",
+      "b": "Tất cả đều đúng",
+      "c": "Phân tích hành vi học tập",
+      "d": "Phân tích kết quả học tập"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Câu 121: Một trong những thủ đoạn lừa đảo phổ biến là gì?",
+    "options": {
+      "a": "Cấp giấy chứng nhận không giá trị",
+      "b": "Tổ chức hội thảo công khai",
+      "c": "Gửi thư mời từ các cơ quan nhà nước",
+      "d": "Giả danh sĩ quan quân đội để đặt hàng số lượng lớn"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Câu 122: Khai báo bảo hiểm xã hội trực tuyến giúp người dân và đơn vị thực hiện gì?",
+    "options": {
+      "a": "Tra cứu điểm thi",
+      "b": "Tìm việc làm trực tuyến",
+      "c": "Mua bảo hiểm du lịch",
+      "d": "Đăng ký, khai báo, đóng BHXH, BHYT, BHTN"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Câu 123: Một trong các hậu quả pháp lý của hành vi vi phạm bản quyền là gì?",
+    "options": {
+      "a": "Phải xin lỗi công khai trên mạng xã hội",
+      "b": "Bị chặn đăng bình luận",
+      "c": "Bị kiện bởi chủ sở hữu bản quyền",
+      "d": "Được yêu cầu tạo tác phẩm thay thế"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Câu 124: Hành động nào sau đây giúp kéo dài vòng đời của thiết bị điện tử?",
+    "options": {
+      "a": "Vứt bỏ thiết bị sau 1-2 năm sử dụng",
+      "b": "Chạy ứng dụng nặng liên tục",
+      "c": "Sửa chữa, nâng cấp và bán lại thiết bị thay vì vứt đi",
+      "d": "Luôn bật thiết bị kể cả khi không dùng"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Câu 125: Phương pháp “5 Tại sao” (5 Why) dùng để làm gì trong xử lý sự cố?",
+    "options": {
+      "a": "Tìm nguyên nhân gốc rễ của sự cố",
+      "b": "Đưa ra mô hình bảo trì mới",
+      "c": "Đánh giá hiệu suất của thiết bị",
+      "d": "Gợi ý cách sửa chữa tức thời"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Câu 126: Mã QR trên thẻ CCCD gắn chip có thể chứa thông tin gì?",
+    "options": {
+      "a": "Không chứa gì.",
+      "b": "Chỉ chứa tên người.",
+      "c": "Số CMND, họ tên, ngày sinh, giới tính, nơi thường trú, ngày cấp thẻ CCCD.",
+      "d": "Chỉ chứa mã định danh cá nhân."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Câu 127: Theo Quyết định số 749/QĐ-TTg ngày 03/6/2020 của Thủ tướng Chính phủ, mục tiêu cơ bản đến năm 2025 trong Chương trình chuyển đổi số Quốc gia đến năm 2025, định hướng đến năm 2030 đặt ra mục tiêu Việt Nam thuộc nhóm bao nhiêu nước dẫn đầu về chỉ số cạnh tranh (GCI)?",
+    "options": {
+      "a": "60",
+      "b": "40",
+      "c": "30",
+      "d": "50"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Câu 128: Đối tượng được cấp thẻ CCCD theo quy định tại Luật CCCD năm 2014 gồm?",
+    "options": {
+      "a": "Từ đủ 14 tuổi, đủ 25 tuổi, đủ 40 tuổi.",
+      "b": "Từ đủ 14 tuổi, đủ 25 tuổi, đủ 40 tuổi, đủ 60 tuổi.",
+      "c": "Từ đủ 14 tuổi.",
+      "d": "Từ đủ 25 tuổi, đủ 45 tuổi và đủ 60 tuổi."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Câu 129: VNeID giúp người dân khai báo gì online?",
+    "options": {
+      "a": "Mở công ty",
+      "b": "Đăng ký xe máy",
+      "c": "Mua bán nhà",
+      "d": "Lưu trú"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Câu 130: Tài khoản định danh điện tử mức 1, mức 2 có giá trị thế nào?",
+    "options": {
+      "a": "Tài khoản định danh điện tử mức độ 1 có giá trị chứng minh thông tin trong các hoạt động, giao dịch có yêu cầu cung cấp thông tin cá nhân. Tài khoản định danh điện tử mức độ 2 có giá trị tương đương với sử dụng căn cước công dân trong các giao dịch có yêu cầu xuất trình căn cước công dân; ngoài ra, tài khoản định danh điện tử mức độ 2 còn cung cấp thông tin có trong các loại giấy tờ đã được đồng bộ vào tài khoản định danh điện tử như giấy phép lái xe, thẻ bảo hiểm y tế... để đối chiếu khi phải xuất trình giấy tờ đó",
+      "b": "Tài khoản định danh điện tử mức độ 1 và 2 có giá trị tương đương với sử dụng căn cước công dân trong các giao dịch có yêu cầu xuất trình căn cước công dân; ngoài ra, tài khoản định danh điện tử mức độ 2 còn cung cấp thông tin có trong các loại giấy tờ đã được đồng bộ vào tài khoản định danh điện tử như giấy phép lái xe, thẻ bảo hiểm y tế... để đối chiếu khi phải xuất trình giấy tờ đó",
+      "c": "Tài khoản định danh điện tử mức độ 1 và 2 có giá trị tương đương với sử dụng căn cước công dân trong các giao dịch có yêu cầu xuất trình căn cước công dân."
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Câu 131: Khi mua sắm online, người dùng nên lưu ý điều gì để đảm bảo an toàn?",
+    "options": {
+      "a": "Chỉ dùng Wi-Fi công cộng khi thanh toán",
+      "b": "Sử dụng các sàn thương mại điện tử uy tín",
+      "c": "Không chia sẻ OTP cho người khác",
+      "d": "Kiểm tra đánh giá người bán"
+    },
+    "answer": ["b", "c", "d"]
+  },
+  {
+    "question": "Câu 132: Dấu hiệu nhận biết email lừa đảo là gì?",
+    "options": {
+      "a": "Nội dung cấp bách, khẩn cấp",
+      "b": "Có file đính kèm lạ",
+      "c": "Người gửi không rõ ràng",
+      "d": "Đường link lạ đính kèm"
+    },
+    "answer": ["a", "b", "c", "d"]
+  },
+  {
+    "question": "Câu 133: Thiết bị lưu trữ ngoài (USB, ổ cứng) có thể gây mất ATTT nếu?",
+    "options": {
+      "a": "Không được quét virus",
+      "b": "Mang ra ngoài đơn vị mà không xin phép",
+      "c": "Cắm vào máy lạ",
       "d": "Tất cả đều đúng"
     },
     "answer": "d"
   },
   {
-    "question": "11. Ứng dụng AI nào phù hợp trong hệ thống phòng không?",
+    "question": "Câu 134: Khi nhận được email có đường link lạ, cần phải?",
     "options": {
-      "a": "Ra quyết định phóng tên lửa",
-      "b": "Dự đoán đường bay",
-      "c": "Hỗ trợ phân tích radar",
-      "d": "Tự động phân loại mục tiêu bay"
+      "a": "Thực hiện xóa ngay email",
+      "b": "Không click vào đường link và thông báo cho bộ phận ATTT đơn vị",
+      "c": "Forward email cho những người khác",
+      "d": "Truy cập đường link để nắm nội dung và thông báo cho bộ phận ATTT đơn vị"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Câu 135: Các nền tảng học tập sử dụng AI thường có tính năng nào?",
+    "options": {
+      "a": "Phân tích kết quả học tập",
+      "b": "Tất cả đúng",
+      "c": "Cá nhân hóa bài học",
+      "d": "Gợi ý nội dung theo tiến độ"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Câu 136: AI giúp ích gì trong quản lý lớp học thông minh?",
+    "options": {
+      "a": "Theo dõi hành vi học sinh",
+      "b": "Tự động điểm danh",
+      "c": "Tất cả các phương án trên",
+      "d": "Gợi ý phương pháp giảng dạy phù hợp"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Câu 137: AI giúp gì trong kiểm soát truy cập hệ thống?",
+    "options": {
+      "a": "Xác thực sinh trắc học",
+      "b": "Phát hiện đăng nhập lạ",
+      "c": "Theo dõi hành vi người dùng",
+      "d": "Giới hạn truy cập theo hành vi"
     },
     "answer": ["a", "b", "c", "d"]
   },
   {
-    "question": "12. Siêu AI (Artificial Superintelligence) là gì?",
+    "question": "Câu 138: Đâu không phải là quy tắc ứng xử của cơ quan nhà nước trên mạng xã hội?",
     "options": {
-      "a": "AI chỉ làm việc theo lập trình sẵn",
-      "b": "AI chỉ thực hiện được các tác vụ đơn giản",
-      "c": "AI chỉ hoạt động trong các trò chơi điện tử",
-      "d": "AI vượt qua trí tuệ con người trong mọi lĩnh vực"
+        "a": "Không tham gia ý kiến bình luận, phản hồi thông tin trên mạng xã hội",
+        "b": "Cung cấp thông tin trên mạng xã hội đồng bộ, thống nhất với thông tin đã được cung cấp trên phương tiện truyền thông chính thống khác",
+        "c": "Có trách nhiệm quản lý, bảo mật tài khoản mạng xã hội và nhanh chóng thông báo nhà cung cấp dịch vụ khi tài khoản của cơ quan nhà nước, tổ chức bị mất quyền kiểm soát hoặc giả mạo",
+        "d": "Thực hiện nội dung quy định cho cơ quan, tổ chức nêu tại Điều 4 Quyết định 874/QĐ-BTTTT"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Câu 139: Chuyển đổi số là gì?",
+    "options": {
+        "a": "Chuyển đổi số là khai thác các dữ liệu có được từ quá trình số hoá, rồi áp dụng các công nghệ để phân tích, biến đổi các dữ liệu đó và tạo ra các giá trị mới hơn",
+        "b": "Chuyển đổi số là bước phát triển tiếp theo của tin học hóa (ứng dụng công nghệ thông tin, số hóa quy trình nghiệp vụ đã có ở mức cao), có được nhờ sự tiến bộ vượt bậc của những công nghệ mới mang tính đột phá, nhất là công nghệ số",
+        "c": "Chuyển đổi số là quá trình thay đổi tổng thể và toàn diện của cá nhân, tổ chức về cách sống, cách làm việc và phương thức sản xuất dựa trên các công nghệ số",
+        "d": "Tất cả các đáp án"
     },
     "answer": "d"
   },
   {
-    "question": "18. Kỹ thuật nào giúp nâng cao hiệu quả tìm kiếm dữ liệu quân sự?",
+    "question": "Câu 140: Kỹ năng quan trọng nhất cho cán bộ trong chuyển đổi số là gì?",
     "options": {
-      "a": "Gửi dữ liệu qua email cá nhân",
-      "b": "Sao chép tất cả dữ liệu vào ổ cứng",
-      "c": "Sử dụng từ khóa chính xác và phân loại thông tin theo cấp độ bảo mật",
-      "d": "Dùng tài khoản công cộng truy cập nhanh"
+        "a": "Lái xe",
+        "b": "Vận hành máy tính cơ bản",
+        "c": "Ngoại ngữ",
+        "d": "Kỹ năng số"
     },
-    "answer": "c"
+    "answer": "d"
   },
   {
-    "question": "21. Hành động nào sau đây giúp kiểm soát và xử lý sự cố truy cập dữ liệu?",
+    "question": "Câu 141: Hệ thống thông tin liên lạc hiện đại của quân đội sử dụng công nghệ nào?",
     "options": {
-      "a": "Chia sẻ qua nhiều nền tảng",
-      "b": "Ghi lại lịch sử truy cập",
-      "c": "Cấp quyền không giới hạn",
-      "d": "Sử dụng mạng công cộng"
+        "a": "5G",
+        "b": "Mạng radio mật mã",
+        "c": "Vệ tinh quân sự",
+        "d": "Tất cả các đáp án trên"
     },
-    "answer": "b"
+    "answer": "d"
   },
   {
-    "question": "24. Một trong các hậu quả pháp lý của hành vi vi phạm bản quyền là gì?",
+    "question": "Câu 142: Người dùng có thể dùng camera thông minh để làm gì?",
     "options": {
-      "a": "Được yêu cầu tạo tác phẩm thay thế",
-      "b": "Phải xin lỗi công khai trên mạng xã hội",
-      "c": "Bị kiện bởi chủ sở hữu bản quyền",
-      "d": "Bị chặn đăng bình luận"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "1. Công nghệ nào hỗ trợ giám sát, điều hành tài chính công hiệu quả?",
-    "options": {
-      "a": "Tự động hóa báo cáo ngân sách",
-      "b": "Hệ thống Dashboard trực quan",
-      "c": "Phân tích dữ liệu thời gian thực",
-      "d": "Excel offline"
+        "a": "Gửi dữ liệu livestream",
+        "b": "Nhận diện khuôn mặt",
+        "c": "Giám sát nhà cửa",
+        "d": "Chơi trò chơi thực tế ảo"
     },
     "answer": ["a", "b", "c"]
   },
   {
-    "question": "4. Khi đăng ký tài khoản định danh điện tử, có cần số điện thoại chính chủ không?",
+    "question": "Câu 143: Phát biểu nào sau đây đúng về phòng chống tấn công mạng trong quân đội?",
     "options": {
-      "a": "Sử dụng một số điện bất kỳ dù không sử dụng, miễn có là được",
-      "b": "Không bắt buộc sử dụng số điện thoại chính chủ, nhưng khuyến khích sử dụng vì vấn đề an toàn bảo mật",
-      "c": "Sử dụng số điện thoại của những người thân trong gia đình là được",
-      "d": "Bắt buộc phải có số điện thoại chính chủ"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "1. Tổ chức có thể áp dụng chuyển đổi số vào những hoạt động nào?",
-    "options": {
-      "a": "Chăm sóc khách hàng",
-      "b": "Nghiên cứu thị trường",
-      "c": "Bán hàng",
-      "d": "Quản lý rủi ro",
-      "e": "Tất cả đáp án trên"
-    },
-    "answer": "e"
-  },
-  {
-    "question": "2. Lợi ích chuyển đổi số trong giáo dục và đào tạo?",
-    "options": {
-      "a": "Tạo môi trường giáo dục linh động và truy cập tài liệu học tập mọi lúc, mọi nơi",
-      "b": "Tất cả các đáp án",
-      "c": "Nâng cao chất lượng giáo dục và giảm chi phí đào tạo",
-      "d": "Tăng tính tương tác và trải nghiệm thực tế"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "3. Theo quy định tại Luật Căn cước công dân năm 2014, công dân Việt Nam từ bao nhiêu tuổi được cấp thẻ Căn cước công dân?",
-    "options": {
-      "a": "Từ đủ 14 tuổi.",
-      "b": "Từ đủ 18 tuổi.",
-      "c": "Từ đủ 16 tuổi.",
-      "d": "Từ đủ 15 tuổi."
-    },
-    "answer": "a"
-  },
-  {
-    "question": "4. VNeID có thể thay thế cho loại giấy tờ nào?",
-    "options": {
-      "a": "Bằng lái xe",
-      "b": "Giấy khai sinh",
-      "c": "CMND/CCCD",
-      "d": "Hộ khẩu"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "5. Ứng dụng nào có thể tích hợp VNeID?",
-    "options": {
-      "a": "Tiktok",
-      "b": "Messenger",
-      "c": "Facebook",
-      "d": "Cổng DVC Quốc gia"
+        "a": "Chỉ cần khi có chiến tranh mới cần phòng chống",
+        "b": "Chỉ liên quan đến đơn vị thông tin",
+        "c": "Chỉ lực lượng kỹ thuật mới chịu trách nhiệm",
+        "d": "Phòng chống là nhiệm vụ thường xuyên"
     },
     "answer": "d"
   },
   {
-    "question": "6. Công nghệ Blockchain có thể hỗ trợ quân đội ở lĩnh vực nào?",
+    "question": "Câu 144: Các hành vi nào sau đây là vi phạm an toàn thông tin cá nhân?",
     "options": {
-      "a": "Quản lý chuỗi cung ứng",
-      "b": "Tất cả các đáp án trên",
-      "c": "Lưu trữ hồ sơ",
-      "d": "Bảo mật thông tin"
+        "a": "Tự ý thu thập dữ liệu cá nhân",
+        "b": "Tự động gửi OTP khi chưa xin phép",
+        "c": "Tấn công lừa đảo qua email",
+        "d": "Bán thông tin cho bên thứ ba"
     },
-    "answer": "b"
+    "answer": ["a", "c", "d"]
   },
   {
-    "question": "7. Giải pháp phổ biến nhất để bảo vệ tài khoản cá nhân là gì?",
+    "question": "Câu 145: Khi nhận được cuộc gọi lạ, xưng là cán bộ Công an yêu cầu cung cấp các thông tin cá nhân, tài khoản ngân hàng,... để cấp tài khoản định danh điện tử. Có nên thực hiện không?",
     "options": {
-      "a": "Sử dụng xác thực hai yếu tố (2FA)",
-      "b": "Cài phần mềm gián điệp",
-      "c": "Dùng mật khẩu đơn giản",
-      "d": "Không sử dụng mạng"
+        "a": "Không. Vì người dân có thể đăng ký cấp tài khoản định danh điện tử qua ứng dụng VNeID hoặc ra trực tiếp cơ quan Công an để thực hiện. Cán bộ Công an sẽ không gọi điện yêu cầu công dân cung cấp thêm thông tin cá nhân hay bất kỳ loại giấy tờ nào khác.",
+        "b": "Tùy vào nội dung cơ quan công an yêu cầu mà cân nhắc thực hiện theo hay không",
+        "c": "Chỉ cung cấp thông tin về bảo hiểm y tế, giấy phép lái xe, đăng ký xe cho người gọi điện; không cung cấp thông tin tài khoản ngân hàng",
+        "d": "Có. Vì cơ quan công an có thể cần bổ sung thêm giấy tờ tích hợp vào tài khoản định danh điện tử và liên hệ vì đã có số điện thoại lưu trong hệ thống"
     },
     "answer": "a"
   },
   {
-    "question": "8. Để bảo vệ an ninh mạng, thì môi trường vận hành của hệ thống thông tin quan trọng về an ninh quốc gia phải đáp ứng những yêu cầu nào?",
+    "question": "Câu 146: AI có thể tăng cường hiệu quả công tác chính trị như thế nào?",
     "options": {
-      "a": "Loại bỏ hoặc tắt các tính năng, phần mềm tiện ích không sử dụng, không cần thiết trên hệ thống thông tin",
-      "b": "Cả A, B và C đều đúng",
-      "c": "Tách biệt với các môi trường phát triển, kiểm tra và thử nghiệm",
-      "d": "Áp dụng các giải pháp bảo đảm an toàn thông tin. Không cài đặt các công cụ, phương tiện phát triển ứng dụng"
+        "a": "Phân tích phản hồi cán bộ",
+        "b": "Dự báo xu hướng tư tưởng",
+        "c": "Tự động hóa khảo sát",
+        "d": "Tổng hợp báo cáo nhanh"
+    },
+    "answer": ["a", "b", "c", "d"]
+  },
+  {
+    "question": "Câu 147: AI được ứng dụng trong giáo dục để làm gì?",
+    "options": {
+        "a": "Phát wifi",
+        "b": "Dạy thay giáo viên",
+        "c": "Mở cửa lớp học",
+        "d": "Chấm điểm tự động"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Câu 148: Ethernet là gì?",
+    "options": {
+        "a": "Bộ chuyển đổi tín hiệu Bluetooth",
+        "b": "Phương thức kết nối mạng có dây dùng cáp RJ45",
+        "c": "Ứng dụng giúp tăng sóng mạng",
+        "d": "Một dạng Wi-Fi công suất cao"
     },
     "answer": "b"
   },
   {
-    "question": "9. Các kỹ thuật tấn công mạng hiện đại thường sử dụng?",
+    "question": "Câu 149: Ưu điểm nổi bật của mạng 5G so với 4G là gì?",
     "options": {
-      "a": "Tấn công bằng mã độc tàng hình",
-      "b": "Tấn công bằng khai thác 0-day",
-      "c": "Spear phishing",
-      "d": "Tấn công qua AI",
-      "e": "Cả 4 đáp án đều đúng"
-    },
-    "answer": "e"
-  },
-  {
-    "question": "11. AI hỗ trợ gì trong phòng chống tin giả?",
-    "options": {
-      "a": "Tự động gắn cảnh báo",
-      "b": "Kiểm tra nguồn gốc",
-      "c": "Xác thực thông tin theo thời gian thực",
-      "d": "Phân tích nội dung",
-      "e": "Cả 4 đáp án trên"
-    },
-    "answer": "e"
-  },
-  {
-    "question": "12. Các nền tảng học tập sử dụng AI thường có tính năng nào?",
-    "options": {
-      "a": "Phân tích kết quả học tập",
-      "b": "Tất cả đúng",
-      "c": "Gợi ý nội dung theo tiến độ",
-      "d": "Cá nhân hóa bài học"
+        "a": "Dễ triển khai hơn",
+        "b": "Tốc độ cao, độ trễ thấp, hỗ trợ nhiều thiết bị",
+        "c": "Giá thành rẻ hơn",
+        "d": "Phù hợp với thiết bị cũ"
     },
     "answer": "b"
   },
   {
-    "question": "13. Đâu là một tính năng sao lưu hệ thống toàn bộ dành riêng cho máy Mac?",
+    "question": "Câu 150: Một hành vi giúp đồng chí kiểm soát hình ảnh cá nhân trên mạng xã hội là:",
     "options": {
-      "a": "Apple ID Sync",
-      "b": "Time Machine",
-      "c": "System Restore",
-      "d": "File History"
+        "a": "Đăng tải nội dung công khai để tăng lượt tương tác",
+        "b": "Gửi bài đăng cho nhiều nhóm khác nhau",
+        "c": "Kết bạn với tất cả những người gửi lời mời",
+        "d": "Cài đặt quyền riêng tư phù hợp và kiểm soát bài đăng"
     },
-    "answer": "b"
+    "answer": "d"
   },
   {
-    "question": "15. Mạng di động 3G, 4G, 5G có đặc điểm gì nổi bật?",
+    "question": "Câu 151: Vì sao cần thực hiện quy trình lặp khi làm việc với AI?",
     "options": {
-      "a": "Chỉ dùng được khi có Wi-Fi",
-      "b": "Luôn nhanh hơn Wi-Fi",
-      "c": "Cho phép truy cập Internet mọi nơi có sóng điện thoại",
-      "d": "Chỉ áp dụng cho máy tính bàn"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "17. Một trong những thủ đoạn lừa đảo phổ biến là gì?",
-    "options": {
-      "a": "Gửi thư mời từ các cơ quan nhà nước",
-      "b": "Cấp giấy chứng nhận không giá trị",
-      "c": "Giả danh sĩ quan quân đội để đặt hàng số lượng lớn",
-      "d": "Tổ chức hội thảo công khai"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "24. NotebookLM là công cụ do tổ chức nào phát triển?",
-    "options": {
-      "a": "Microsoft",
-      "b": "Google",
-      "c": "IBM",
-      "d": "OpenAI"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "25. Mật khẩu mạnh nên có ít nhất bao nhiêu ký tự?",
-    "options": {
-      "a": "12 ký tự",
-      "b": "8 ký tự",
-      "c": "6 ký tự",
-      "d": "16 ký tự"
+        "a": "Vì AI không thể luôn hiểu đúng ý ngay từ lần đầu",
+        "b": "Để AI hiểu người dùng ngay từ đầu",
+        "c": "Để tiết kiệm thời gian không cần kiểm tra lại",
+        "d": "Vì AI có thể đoán chính xác mọi yêu cầu"
     },
     "answer": "a"
   },
   {
-    "question": "26. Hội chứng thị giác màn hình thường xảy ra khi dùng thiết bị trên bao lâu mỗi ngày?",
+    "question": "Câu 152: Vì sao nên tinh chỉnh lại slide sau khi Gamma thiết kế tự động?",
     "options": {
-      "a": "5 giờ",
-      "b": "3 giờ",
-      "c": "1 giờ",
-      "d": "30 phút"
+        "a": "Để phù hợp với văn hóa tổ chức và nhận diện thương hiệu",
+        "b": "Để thay đổi chủ đề của bài thuyết trình",
+        "c": "Để thêm nội dung mới",
+        "d": "Để xóa phần tóm tắt của Gamma"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Câu 153: Việc dùng thiết bị điện tử sai tư thế lâu dài có thể gây ảnh hưởng gì đến cơ thể?",
+    "options": {
+        "a": "Tăng trí nhớ",
+        "b": "Làm chắc xương hơn",
+        "c": "Rối loạn cơ xương khớp như đau cổ, vai, gáy",
+        "d": "Cải thiện tuần hoàn máu"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Câu 154: Yếu tố nào thúc đẩy chuyển đổi số trong kinh tế?",
+    "options": {
+        "a": "Giá thành thiết bị tăng",
+        "b": "Chính sách hỗ trợ",
+        "c": "Hạ tầng số",
+        "d": "Ý thức doanh nghiệp"
+    },
+    "answer": ["b", "c", "d"]
+  },
+  {
+    "question": "Câu 155: Mục tiêu của chuyển đổi số trong doanh nghiệp là gì?",
+    "options": {
+        "a": "Tăng hiệu quả vận hành",
+        "b": "Tất cả các phương án trên",
+        "c": "Tối ưu chi phí",
+        "d": "Cải thiện trải nghiệm khách hàng"
     },
     "answer": "b"
-  }
+  },
+  {
+    "question": "Câu 156: Tài chính thông minh (Smart Finance) sử dụng công nghệ nào?",
+    "options": {
+        "a": "Cloud",
+        "b": "Thẻ từ truyền thống",
+        "c": "AI",
+        "d": "Big Data"
+    },
+    "answer": ["a", "c", "d"]
+  },
+  {
+    "question": "Câu 157: Mô hình lớp học đảo ngược (Flipped Classroom) sử dụng công nghệ như thế nào?",
+    "options": {
+        "a": "Lớp học online 100%",
+        "b": "Chỉ dùng trong đại học",
+        "c": "Giáo viên dạy học sinh qua mạng",
+        "d": "Học sinh học trước ở nhà qua video"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Câu 158: Tại sao không nên cài ứng dụng không rõ nguồn gốc?",
+    "options": {
+        "a": "Gây hao pin thiết bị",
+        "b": "Có thể chiếm quyền điều khiển thiết bị",
+        "c": "Có thể chứa mã độc",
+        "d": "Có thể đánh cắp thông tin"
+    },
+    "answer": ["b", "c", "d"]
+  },
+  {
+    "question": "Câu 159: AI có thể giúp quản lý hồ sơ bệnh án như thế nào?",
+    "options": {
+        "a": "Tìm kiếm nhanh",
+        "b": "Tất cả đúng",
+        "c": "Gợi ý dữ liệu liên quan",
+        "d": "Tự động lưu trữ"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Câu 160: Mục tiêu chính của AI là gì?",
+    "options": {
+        "a": "Tự động hóa công việc",
+        "b": "Điều khiển máy móc",
+        "c": "Mô phỏng trí tuệ con người",
+        "d": "Tạo ra phần mềm"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Câu 161: AI hỗ trợ đánh giá năng lực học sinh bằng cách nào?",
+    "options": {
+        "a": "So sánh dữ liệu nhóm",
+        "b": "Tất cả đều đúng",
+        "c": "Phân tích hành vi học tập",
+        "d": "Phân tích kết quả học tập"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Câu 162: Trên iPhone, để chia sẻ Internet qua Bluetooth, người dùng cần thao tác gì?",
+    "options": {
+        "a": "Vào Safari và nhập “Hotspot”",
+        "b": "Kết nối qua AirDrop trước",
+        "c": "Tắt Wi-Fi và bật Dữ liệu di động",
+        "d": "Bật Điểm truy cập cá nhân và kết nối với laptop qua Bluetooth"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Câu 163: Một trong những thủ đoạn lừa đảo phổ biến là gì?",
+    "options": {
+        "a": "Cấp giấy chứng nhận không giá trị",
+        "b": "Tổ chức hội thảo công khai",
+        "c": "Gửi thư mời từ các cơ quan nhà nước",
+        "d": "Giả danh sĩ quan quân đội để đặt hàng số lượng lớn"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Câu 164: Các công nghệ thúc đẩy chuyển đổi số trong lĩnh vực y tế là gì?",
+    "options": {
+        "a": "Khám chữa bệnh từ xa (Telemedicine)",
+        "b": "Theo dõi từ xa (Remote Patient Monitoring - RPM)",
+        "c": "Công nghệ thực tế ảo tăng cường (VR & AR)",
+        "d": "Tất cả các đáp án"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Câu 165: Những thách thức khi triển khai chuyển đổi số trong ngành giáo dục và đào tạo?",
+    "options": {
+        "a": "Thói quen giảng dạy và học tập truyền thống",
+        "b": "Thách thức về phát triển hạ tầng số ở vùng khó khăn, vùng sâu, vùng xa, biên giới, hải đảo",
+        "c": "Đòi hỏi thay đổi tư duy và năng lực quản lý, làm chủ công nghệ",
+        "d": "Tất cả các đáp án"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Câu 166: Ứng dụng trí tuệ nhân tạo (AI) trong y tế giúp thực hiện chức năng gì?",
+    "options": {
+        "a": "Phẫu thuật robot",
+        "b": "Chẩn đoán hình ảnh",
+        "c": "Dự đoán bệnh",
+        "d": "Tất cả các đáp án trên"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Câu 167: Tài khoản định danh điện tử có mấy mức độ?",
+    "options": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Câu 168: Người dân cần cung cấp thông tin gì khi đăng ký tài khoản VNeID?",
+    "options": {
+        "a": "Tài khoản ngân hàng",
+        "b": "Giấy khai sinh",
+        "c": "CCCD và số điện thoại",
+        "d": "Hộ khẩu photo"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Câu 169: Nguyên nhân khiến nhiều người dễ bị hack mật khẩu?",
+    "options": {
+        "a": "Không đổi mật khẩu định kỳ",
+        "b": "Không bật xác thực hai bước",
+        "c": "Dùng mật khẩu yếu",
+        "d": "Dùng chung mật khẩu nhiều nơi"
+    },
+    "answer": ["a", "b", "c", "d"]
+  },
+  {
+    "question": "Câu 170: Vì sao mạng quân sự thường không kết nối Internet công cộng?",
+    "options": {
+        "a": "Bảo vệ dữ liệu mật",
+        "b": "Để tránh bị dò quét",
+        "c": "Hạn chế lây lan mã độc",
+        "d": "Tất cả đều đúng"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Câu 171: Ransomware là gì?",
+    "options": {
+        "a": "Một loại phần mềm hợp pháp",
+        "b": "Một dạng mã độc tống tiền",
+        "c": "Một phần mềm diệt virus",
+        "d": "Một hình thức lừa đảo qua email"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Câu 172: AI có thể hỗ trợ phát hiện các cuộc tấn công giả mạo thông tin như thế nào?",
+    "options": {
+        "a": "Xác định mâu thuẫn thông tin",
+        "b": "Dự đoán nguồn phát tán",
+        "c": "Tự động báo cáo cơ quan chức năng",
+        "d": "So sánh nội dung với cơ sở dữ liệu chuẩn"
+    },
+    "answer": ["a", "b", "c", "d"]
+  },
+  {
+    "question": "Câu 173: Ứng dụng trợ lý ảo nào sau đây là do AI tạo ra?",
+    "options": {
+        "a": "Photoshop",
+        "b": "Paint",
+        "c": "Siri",
+        "d": "Excel"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Câu 174: AI giúp hỗ trợ bệnh nhân như thế nào qua chatbot?",
+    "options": {
+        "a": "Tư vấn sức khỏe ban đầu",
+        "b": "Giải đáp thắc mắc",
+        "c": "Hướng dẫn dùng thuốc",
+        "d": "Tất cả đều đúng"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Câu 175: Đâu không phải là quy tắc ứng xử của cơ quan nhà nước trên mạng xã hội?",
+    "options": {
+        "a": "Không tham gia ý kiến bình luận, phản hồi thông tin trên mạng xã hội",
+        "b": "Cung cấp thông tin trên mạng xã hội đồng bộ, thống nhất với thông tin đã được cung cấp trên phương tiện truyền thông chính thống khác",
+        "c": "Có trách nhiệm quản lý, bảo mật tài khoản mạng xã hội và nhanh chóng thông báo nhà cung cấp dịch vụ khi tài khoản của cơ quan nhà nước, tổ chức bị mất quyền kiểm soát hoặc giả mạo",
+        "d": "Thực hiện nội dung quy định cho cơ quan, tổ chức nêu tại Điều 4 Quyết định 874/QĐ-BTTTT"
+    },
+    "answer": "a"
+	},
+	{
+		"question": "Câu 176: Chuyển đổi số là gì?",
+		"options": {
+			"a": "Chuyển đổi số là khai thác các dữ liệu có được từ quá trình số hoá, rồi áp dụng các công nghệ để phân tích, biến đổi các dữ liệu đó và tạo ra các giá trị mới hơn",
+			"b": "Chuyển đổi số là bước phát triển tiếp theo của tin học hóa (ứng dụng công nghệ thông tin, số hóa quy trình nghiệp vụ đã có ở mức cao), có được nhờ sự tiến bộ vượt bậc của những công nghệ mới mang tính đột phá, nhất là công nghệ số",
+			"c": "Chuyển đổi số là quá trình thay đổi tổng thể và toàn diện của cá nhân, tổ chức về cách sống, cách làm việc và phương thức sản xuất dựa trên các công nghệ số",
+			"d": "Tất cả các đáp án"
+		},
+		"answer": "d"
+	},
+	{
+		"question": "Câu 177: Kỹ năng quan trọng nhất cho cán bộ trong chuyển đổi số là gì?",
+		"options": {
+			"a": "Lái xe",
+			"b": "Vận hành máy tính cơ bản",
+			"c": "Ngoại ngữ",
+			"d": "Kỹ năng số"
+		},
+		"answer": "d"
+	},
+	{
+		"question": "Câu 178: Hệ thống thông tin liên lạc hiện đại của quân đội sử dụng công nghệ nào?",
+		"options": {
+			"a": "5G",
+			"b": "Mạng radio mật mã",
+			"c": "Vệ tinh quân sự",
+			"d": "Tất cả các đáp án trên"
+		},
+		"answer": "d"
+	},
+	{
+		"question": "Câu 179: Người dùng có thể dùng camera thông minh để làm gì?",
+		"options": {
+			"a": "Gửi dữ liệu livestream",
+			"b": "Nhận diện khuôn mặt",
+			"c": "Giám sát nhà cửa",
+			"d": "Chơi trò chơi thực tế ảo"
+		},
+		"answer": ["a", "b", "c"]
+	},
+	{
+		"question": "Câu 180: Phát biểu nào sau đây đúng về phòng chống tấn công mạng trong quân đội?",
+		"options": {
+			"a": "Chỉ cần khi có chiến tranh mới cần phòng chống",
+			"b": "Chỉ liên quan đến đơn vị thông tin",
+			"c": "Chỉ lực lượng kỹ thuật mới chịu trách nhiệm",
+			"d": "Phòng chống là nhiệm vụ thường xuyên"
+		},
+		"answer": "d"
+	},
+	{
+		"question": "Câu 181: Các hành vi nào sau đây là vi phạm an toàn thông tin cá nhân?",
+		"options": {
+			"a": "Tự ý thu thập dữ liệu cá nhân",
+			"b": "Tự động gửi OTP khi chưa xin phép",
+			"c": "Tấn công lừa đảo qua email",
+			"d": "Bán thông tin cho bên thứ ba"
+		},
+		"answer": ["a", "c", "d"]
+	},
+	{
+		"question": "Câu 182: Khi nhận được cuộc gọi lạ, xưng là cán bộ Công an yêu cầu cung cấp các thông tin cá nhân, tài khoản ngân hàng,... để cấp tài khoản định danh điện tử. Có nên thực hiện không?",
+		"options": {
+			"a": "Không. Vì người dân có thể đăng ký cấp tài khoản định danh điện tử qua ứng dụng VNeID hoặc ra trực tiếp cơ quan Công an để thực hiện. Cán bộ Công an sẽ không gọi điện yêu cầu công dân cung cấp thêm thông tin cá nhân hay bất kỳ loại giấy tờ nào khác.",
+			"b": "Tùy vào nội dung cơ quan công an yêu cầu mà cân nhắc thực hiện theo hay không",
+			"c": "Chỉ cung cấp thông tin về bảo hiểm y tế, giấy phép lái xe, đăng ký xe cho người gọi điện; không cung cấp thông tin tài khoản ngân hàng",
+			"d": "Có. Vì cơ quan công an có thể cần bổ sung thêm giấy tờ tích hợp vào tài khoản định danh điện tử và liên hệ vì đã có số điện thoại lưu trong hệ thống"
+		},
+		"answer": "a"
+	},
+	{
+		"question": "Câu 183: AI có thể tăng cường hiệu quả công tác chính trị như thế nào?",
+		"options": {
+			"a": "Phân tích phản hồi cán bộ",
+			"b": "Dự báo xu hướng tư tưởng",
+			"c": "Tự động hóa khảo sát",
+			"d": "Tổng hợp báo cáo nhanh"
+		},
+		"answer": ["a", "b", "c", "d"]
+	},
+	{
+		"question": "Câu 184: AI được ứng dụng trong giáo dục để làm gì?",
+		"options": {
+			"a": "Phát wifi",
+			"b": "Dạy thay giáo viên",
+			"c": "Mở cửa lớp học",
+			"d": "Chấm điểm tự động"
+		},
+		"answer": "d"
+	},
+	{
+		"question": "Câu 185: Phát biểu đúng nhất về lợi ích chuyển đổi số trong học tập là gì?",
+		"options": {
+			"a": "Giới hạn việc tìm kiếm thông tin",
+			"b": "Tiếp cận nguồn tài liệu khổng lồ và phải trả chi phí nhiều hơn",
+			"c": "Bị hạn chế khả năng tiếp cận nhiều tài liệu học tập",
+			"d": "Giúp học tập mọi lúc, mọi nơi"
+		},
+		"answer": "d"
+	},
+	{
+		"question": "Câu 186: Ứng dụng VNeID có chức năng gì?",
+		"options": {
+			"a": "Tất cả các đáp án trên.",
+			"b": "Thông báo giấy tờ hết hạn.",
+			"c": "Tích hợp giấy phép lái xe, BHYT.",
+			"d": "Hiển thị CCCD gắn chip."
+		},
+		"answer": "a"
+	},
+	{
+		"question": "Câu 187: Hiểu thế nào về khái niệm dịch vụ công trực tuyến của cơ quan nhà nước?",
+		"options": {
+			"a": "Dịch vụ công trực tuyến của cơ quan nhà nước là dịch vụ hành chính công và các dịch vụ khác của cơ quan nhà nước được cung cấp cho các tổ chức, cá nhân trên môi trường mạng",
+			"b": "Dịch vụ công trực tuyến là dịch vụ hành chính công và các dịch vụ khác của cơ quan nhà nước được cung cấp cho các tổ chức, cá nhân",
+			"c": "Dịch vụ công trực tuyến là giao dịch công được thực hiện trên môi trường trực tuyến",
+			"d": "Dịch vụ công trực tuyến là các thủ tục hành chính của cơ quan nhà nước được cung cấp cho các tổ chức, cá nhân trên môi trường mạng"
+		},
+		"answer": "a"
+	},
+	{
+		"question": "Câu 188: Thiết bị đeo thông minh (smartwatch, vòng đeo tay sức khỏe) có thể hỗ trợ theo dõi sức khỏe như thế nào?",
+		"options": {
+			"a": "Cảnh báo bất thường",
+			"b": "Theo dõi giấc ngủ",
+			"c": "Đo nồng độ oxy trong máu",
+			"d": "Theo dõi nhịp tim"
+		},
+		"answer": "a"
+	},
+	{
+		"question": "Câu 189: Khi nào thì tài khoản Định danh điện tử công dân bị khóa?",
+		"options": {
+			"a": "Chủ thể danh tính điện tử yêu cầu khóa tài khoản định danh điện tử; vi phạm điều khoản sử dụng ứng dụng; bị thu hồi thẻ CCCD; chết",
+			"b": "Cơ quan tiến hành tố tụng, cơ quan chức năng hoặc bên sử dụng dịch vụ gửi đề nghị khóa tài khoản",
+			"c": "Tòa án nhân dân các cấp ra quyết định khóa tài khoản",
+			"d": "Đáp án 1 và 2"
+		},
+		"answer": "d"
+	},
+	{
+		"question": "Câu 190: Công nghệ AI nào thường được dùng để phân tích hình ảnh y tế?",
+		"options": {
+			"a": "Xử lý ngôn ngữ tự nhiên",
+			"b": "Học tăng cường",
+			"c": "Robotic Process Automation",
+			"d": "Computer Vision"
+		},
+		"answer": "d"
+	},
+	{
+		"question": "Câu 191: AI có thể hỗ trợ bác sĩ như thế nào trong chẩn đoán bệnh?",
+		"options": {
+			"a": "Điều trị bệnh trực tiếp",
+			"b": "Đưa ra chẩn đoán sơ bộ",
+			"c": "Phân tích dữ liệu y tế lớn",
+			"d": "Thay thế bác sĩ"
+		},
+		"answer": "c"
+	},
+	{
+		"question": "Câu 192: Trên Android, thao tác tắt máy đúng là như thế nào?",
+		"options": {
+			"a": "Gỡ pin ra khỏi máy",
+			"b": "Nhấn nút giảm âm lượng và camera",
+			"c": "Mở cài đặt và chọn “Tắt nguồn”",
+			"d": "Nhấn giữ nút nguồn, chọn 'Power off', rồi xác nhận"
+		},
+		"answer": "d"
+	},
+	{
+		"question": "Câu 193: Chuyển đổi số trong kinh tế vi mô giúp gì cho người dân?",
+		"options": {
+			"a": "Tăng khả năng quản lý chi tiêu",
+			"b": "Tiếp cận tài chính dễ hơn",
+			"c": "Giao dịch thuận tiện hơn",
+			"d": "Tăng thuế thu nhập"
+		},
+		"answer": ["a", "b", "c"]
+	},
+	{
+		"question": "Câu 194: Ba trụ cột của chuyển đổi số là gì?",
+		"options": {
+			"a": "Chuyển đổi công nghệ, dữ liệu, mô hình",
+			"b": "Chính phủ số, kinh tế số, xã hội số",
+			"c": "Kết nối số, công nghệ số, quản trị số",
+			"d": "Công nghiệp hóa, hiện đại hóa, tự động hóa"
+		},
+		"answer": "b"
+	},
+	{
+		"question": "Câu 195: Đến năm 2030, mục tiêu tỷ lệ dân số có tài khoản thanh toán điện tử là bao nhiêu?",
+		"options": {
+			"a": "Trên 90%",
+			"b": "Trên 70%",
+			"c": "Trên 60%",
+			"d": "Trên 80%"
+		},
+		"answer": "d"
+	},
+	{
+		"question": "Câu 196: Công nghệ nào nâng cao hiệu quả quản lý cán bộ chiến sĩ trong quân đội?",
+		"options": {
+			"a": "Phần mềm quản lý hồ sơ",
+			"b": "Hệ thống mã vạch",
+			"c": "Camera an ninh",
+			"d": "AI nhận diện khuôn mặt"
+		},
+		"answer": "d"
+	},
+	{
+		"question": "Câu 197: Các loại hình thương mại điện tử phổ biến?",
+		"options": {
+			"a": "C2C (khách hàng với khách hàng)",
+			"b": "B2C (doanh nghiệp với khách hàng)",
+			"c": "B2B (doanh nghiệp với doanh nghiệp)",
+			"d": "Giao dịch qua fax"
+		},
+		"answer": ["a", "b", "c"]
+	},
+	{
+		"question": "Câu 198: Được phép truy cập thư điện tử nội bộ trên máy tính nào?",
+		"options": {
+			"a": "Máy tính tại Tập đoàn",
+			"b": "Máy tính tại các cửa hàng Internet",
+			"c": "Máy tính cá nhân",
+			"d": "Máy tính công cộng"
+		},
+		"answer": "a"
+	},
+	{
+		"question": "Câu 199: AI giúp gì khi huấn luyện sỹ quan chỉ huy?",
+		"options": {
+			"a": "Phân tích phản ứng quyết định",
+			"b": "Đánh giá hiệu suất thực hành",
+			"c": "Cung cấp phản hồi tự động",
+			"d": "Giả lập tình huống chiến thuật"
+		},
+		"answer": ["a", "b", "c", "d"]
+	},
+	{
+		"question": "Câu 200: AI giúp giảm thiểu gian lận bằng cách nào?",
+		"options": {
+			"a": "Tăng thuế",
+			"b": "Phân tích hành vi",
+			"c": "Khóa tài khoản tự động",
+			"d": "Ẩn thông tin"
+		},
+		"answer": "b"
+	},
+	{
+		"question": "Câu 201: AI thường xuất hiện trong ứng dụng nào?",
+		"options": {
+			"a": "Máy tính bỏ túi",
+			"b": "Excel",
+			"c": "Wordpad",
+			"d": "Google Assistant"
+		},
+		"answer": "d"
+	},
+	{
+		"question": "Câu 202: Trên iPhone, để chia sẻ Internet qua Bluetooth, cần thao tác gì?",
+		"options": {
+			"a": "Tắt Wi-Fi và bật Dữ liệu di động",
+			"b": "Bật Điểm truy cập cá nhân, kết nối laptop qua Bluetooth",
+			"c": "Kết nối qua AirDrop trước",
+			"d": "Vào Safari và nhập 'Hotspot'"
+		},
+		"answer": "b"
+	},
+	{
+		"question": "Câu 203: Nguyên tắc cấp quyền cho người dùng?",
+		"options": {
+			"a": "Phân tán dữ liệu",
+			"b": "Tối thiểu quyền",
+			"c": "Truy cập mở",
+			"d": "Bảo mật nhiều lớp"
+		},
+		"answer": "b"
+	},
+    {
+        "question": "Câu 204: Nhóm tiện ích nào không thuộc Đề án 06?",
+        "options": {
+            "a": "Phục vụ TTHC và dịch vụ công trực tuyến",
+            "b": "Phục vụ công dân số",
+            "c": "Phục vụ kinh doanh, giải trí",
+            "d": "Phục vụ phát triển KT-XH"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "Câu 205: Yếu tố nào là then chốt để chuyển đổi số thành công?",
+        "options": {
+            "a": "Thay đổi tư duy, văn hóa tổ chức",
+            "b": "Ý chí chính trị",
+            "c": "Nguồn lực tài chính",
+            "d": "Hạ tầng công nghệ"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "Câu 206: Theo Nghị định 42, đơn vị nào giữ vai trò điều phối chuyển đổi số quốc gia?",
+        "options": {
+            "a": "Bộ Quốc phòng",
+            "b": "Bộ Công an",
+            "c": "Bộ Giao thông Vận tải",
+            "d": "Bộ Thông tin và Truyền thông"
+        },
+        "answer": "d"
+    },
+    {
+        "question": "Câu 207: Ứng dụng ngân hàng số giúp người dùng thực hiện giao dịch nào sau đây?",
+        "options": {
+            "a": "Gửi tiết kiệm online",
+            "b": "Rút tiền tại ATM bằng QR code",
+            "c": "Chuyển tiền",
+            "d": "Thanh toán hóa đơn"
+        },
+        "answer": ["a", "b", "c", "d"]
+    },
+    {
+        "question": "Câu 208: Một trong các hậu quả pháp lý của hành vi vi phạm bản quyền là gì?",
+        "options": {
+            "a": "Phải xin lỗi công khai trên mạng xã hội",
+            "b": "Bị chặn đăng bình luận",
+            "c": "Bị kiện bởi chủ sở hữu bản quyền",
+            "d": "Được yêu cầu tạo tác phẩm thay thế"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "Câu 209: Phương pháp “5 Tại sao” (5 Why) dùng để làm gì trong xử lý sự cố?",
+        "options": {
+            "a": "Tìm nguyên nhân gốc rễ của sự cố",
+            "b": "Đưa ra mô hình bảo trì mới",
+            "c": "Đánh giá hiệu suất của thiết bị",
+            "d": "Gợi ý cách sửa chữa tức thời"
+        },
+        "answer": "a"
+    }
 ];
